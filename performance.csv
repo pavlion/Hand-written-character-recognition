@@ -1,0 +1,20 @@
+resnet18_lr0.001_gray_rotate, min_loss = 1.44892, best_acc = 76.30680%
+resnet18_lr0.001_gray_rotate, min_loss = 1.03091, best_acc = 80.23378%
+resnet50_lr0.01_gray_rotate, min_loss = 1.71965, best_acc = 72.93144%
+resnet50_lr0.001_gray_rotate, min_loss = 1.39686, best_acc = 77.67271%
+resnet101_lr0.01_gray_rotate, min_loss = 1.40381, best_acc = 77.76464%
+resnet101_lr0.001_gray_rotate, min_loss = 2.50776, best_acc = 62.26688%
+resnet152_lr0.01_gray_rotate, min_loss = 1.23919, best_acc = 81.45521%
+resnet152_lr0.001_gray_rotate, min_loss = 1.60953, best_acc = 75.17730%
+
+resnet18_deform_lr0.001_gray_rotate, min_loss = 2.19364, best_acc = 57.93276%
+resnet18, lr=0.001, loss_type=CE, min_loss=0.828154, best_acc=82.712370%
+
+resnet18, lr=0.001, loss_type=F1, min_loss=0.562509, best_acc=83.727990%
+
+resnet18, lr=0.001, loss_type=F1, min_loss=0.562473, best_acc=82.944196%, best_f1=85.645343%, cfg_str=fintune4839_HVflip_0616_0318%
+
+resnet18, lr=0.001, loss_type=CE, min_loss=0.883550, best_acc=82.353591%, best_f1=82.092040%, cfg_str=fintune4839_HVflip_0616_0318%
+
+resnet18, lr=0.01, loss_type=CE, min_loss=0.858297, best_acc=84.535250%, best_f1=86.066769%, ckpt_dir=resnet18_lr0.01_CE_train4839_HVflip_0617_0629
+resnet18, lr=0.001, loss_type=CE, min_loss=0.690544, best_acc=85.782121%, best_f1=87.364239%, ckpt_dir=resnet18_lr0.001_CE_train4839_HVflip_0617_0919

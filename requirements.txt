@@ -1,0 +1,8 @@
+torch > 1.8
+torchvision > 0.9
+pillow
+pandas 
+scipy
+sklearn
+tqdm
+adabelief_pytorch

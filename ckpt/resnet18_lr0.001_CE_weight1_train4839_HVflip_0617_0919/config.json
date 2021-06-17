@@ -1,0 +1,22 @@
+{
+    "seed": 2021,
+    "root_dir": "croppedData",
+    "train_batch_size": 10000,
+    "test_batch_size": 10000,
+    "lr": 0.001,
+    "test_ratio": 0.2,
+    "num_epoch": 250,
+    "grad_accum_step": 2,
+    "data_parallel": false,
+    "optim_type": "AdamW",
+    "loss_type": "CE",
+    "train_isNull": false,
+    "gray_scale": false,
+    "pretrain": true,
+    "use_imagenet_pretrain": true,
+    "model_type": "resnet18",
+    "model_path": null,
+    "trg_class_weight": 1,
+    "cfg_str": "train4839_HVflip_0617_0919",
+    "dest_path": "ckpt/resnet18_lr0.001_CE_weight1_train4839_HVflip_0617_0919"
+}

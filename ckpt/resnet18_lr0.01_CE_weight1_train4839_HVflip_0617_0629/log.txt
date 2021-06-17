@@ -1,0 +1,1256 @@
+Set random seed to 2021
+Number of classes: 4839
+Number of model parameters: 13658919
+Length of train/val datasets: 237937, 61915
+Length of train/val dataloaders: 24, 7
+Using 1 GPUs: GeForce RTX 3090
+Max/min/avg number of train datasets: 115, 12, 49.17069642488117
+Max/min/avg number of test datasets: 29, 4, 12.794998966728663
+Config:
+  - seed: 2021
+  - root_dir: croppedData
+  - train_batch_size: 10000
+  - test_batch_size: 10000
+  - lr: 0.01
+  - test_ratio: 0.2
+  - num_epoch: 250
+  - grad_accum_step: 2
+  - data_parallel: False
+  - optim_type: AdamW
+  - loss_type: CE
+  - train_isNull: False
+  - gray_scale: False
+  - pretrain: True
+  - use_imagenet_pretrain: True
+  - model_type: resnet18
+  - model_path: None
+  - trg_class_weight: 1
+  - cfg_str: train4839_HVflip_0617_0629
+  - dest_path: ckpt/resnet18_lr0.01_CE_weight1_train4839_HVflip_0617_0629
+
+
+Train step   1 | Loss: 8.634111 | Acc: 0.010000%
+Train step   2 | Loss: 9.900432 | Acc: 0.032500%
+Train step   3 | Loss: 9.943946 | Acc: 0.031667%
+Train step   4 | Loss: 9.672961 | Acc: 0.032500%
+Train step   5 | Loss: 9.507995 | Acc: 0.030000%
+Train step   6 | Loss: 9.373161 | Acc: 0.032500%
+Train step   7 | Loss: 9.262497 | Acc: 0.034286%
+Train step   8 | Loss: 9.173034 | Acc: 0.035000%
+Train step   9 | Loss: 9.097309 | Acc: 0.037222%
+Train step  10 | Loss: 9.034090 | Acc: 0.035000%
+Train step  11 | Loss: 8.982081 | Acc: 0.036364%
+Train step  12 | Loss: 8.937231 | Acc: 0.037825%
+Epoch   1 | Train | Loss: 8.937231 | Acc: 0.037825%
+Epoch   1 |  Val  | Loss: 90.534606 | Acc: 0.043608% | F1: 0.00002%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 90.53461, best_acc = 0.04361%, best f1 = 0.00002%
+Epoch time: 3m/12.3h
+
+
+Train step   1 | Loss: 8.429563 | Acc: 0.055000%
+Train step   2 | Loss: 8.421114 | Acc: 0.050000%
+Train step   3 | Loss: 8.414808 | Acc: 0.063333%
+Train step   4 | Loss: 8.410998 | Acc: 0.057500%
+Train step   5 | Loss: 8.407091 | Acc: 0.050000%
+Train step   6 | Loss: 8.402298 | Acc: 0.049167%
+Train step   7 | Loss: 8.397153 | Acc: 0.054286%
+Train step   8 | Loss: 8.391524 | Acc: 0.054375%
+Train step   9 | Loss: 8.386390 | Acc: 0.056111%
+Train step  10 | Loss: 8.381558 | Acc: 0.055500%
+Train step  11 | Loss: 8.376300 | Acc: 0.055000%
+Train step  12 | Loss: 8.371151 | Acc: 0.054216%
+Epoch   2 | Train | Loss: 8.371151 | Acc: 0.054216%
+Epoch   2 |  Val  | Loss: 8.770961 | Acc: 0.043608% | F1: 0.00008%
+Model(loss) saved.
+Model(f1)) saved.
+Current best: min_loss = 8.77096, best_acc = 0.04361%, best f1 = 0.00008%
+Epoch time: 6m/12.2h
+
+
+Train step   1 | Loss: 8.294599 | Acc: 0.060000%
+Train step   2 | Loss: 8.293269 | Acc: 0.052500%
+Train step   3 | Loss: 8.289355 | Acc: 0.058333%
+Train step   4 | Loss: 8.285735 | Acc: 0.058750%
+Train step   5 | Loss: 8.282686 | Acc: 0.061000%
+Train step   6 | Loss: 8.279385 | Acc: 0.067500%
+Train step   7 | Loss: 8.276668 | Acc: 0.067143%
+Train step   8 | Loss: 8.274898 | Acc: 0.065625%
+Train step   9 | Loss: 8.271742 | Acc: 0.063333%
+Train step  10 | Loss: 8.268467 | Acc: 0.062500%
+Train step  11 | Loss: 8.264825 | Acc: 0.059545%
+Train step  12 | Loss: 8.261995 | Acc: 0.059259%
+Epoch   3 | Train | Loss: 8.261995 | Acc: 0.059259%
+Epoch   3 |  Val  | Loss: 8.247651 | Acc: 0.067835% | F1: 0.00068%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 8.24765, best_acc = 0.06783%, best f1 = 0.00068%
+Epoch time: 9m/12.2h
+
+
+Train step   1 | Loss: 8.205983 | Acc: 0.055000%
+Train step   2 | Loss: 8.206030 | Acc: 0.055000%
+Train step   3 | Loss: 8.204335 | Acc: 0.063333%
+Train step   4 | Loss: 8.203877 | Acc: 0.057500%
+Train step   5 | Loss: 8.202004 | Acc: 0.058000%
+Train step   6 | Loss: 8.200222 | Acc: 0.055000%
+Train step   7 | Loss: 8.198377 | Acc: 0.052857%
+Train step   8 | Loss: 8.196630 | Acc: 0.053125%
+Train step   9 | Loss: 8.195527 | Acc: 0.050556%
+Train step  10 | Loss: 8.193980 | Acc: 0.049000%
+Train step  11 | Loss: 8.192881 | Acc: 0.048182%
+Train step  12 | Loss: 8.190091 | Acc: 0.047492%
+Epoch   4 | Train | Loss: 8.190091 | Acc: 0.047492%
+Epoch   4 |  Val  | Loss: 8.193590 | Acc: 0.037148% | F1: 0.00075%
+Model(loss) saved.
+Model(f1)) saved.
+Current best: min_loss = 8.19359, best_acc = 0.06783%, best f1 = 0.00075%
+Epoch time: 12m/12.2h
+
+
+Train step   1 | Loss: 8.154474 | Acc: 0.060000%
+Train step   2 | Loss: 8.151792 | Acc: 0.070000%
+Train step   3 | Loss: 8.149202 | Acc: 0.068333%
+Train step   4 | Loss: 8.147511 | Acc: 0.067500%
+Train step   5 | Loss: 8.143437 | Acc: 0.072000%
+Train step   6 | Loss: 8.141126 | Acc: 0.081667%
+Train step   7 | Loss: 8.137239 | Acc: 0.081429%
+Train step   8 | Loss: 8.134224 | Acc: 0.081250%
+Train step   9 | Loss: 8.130849 | Acc: 0.078889%
+Train step  10 | Loss: 8.126485 | Acc: 0.081500%
+Train step  11 | Loss: 8.121636 | Acc: 0.079545%
+Train step  12 | Loss: 8.117230 | Acc: 0.078592%
+Epoch   5 | Train | Loss: 8.117230 | Acc: 0.078592%
+Epoch   5 |  Val  | Loss: 8.163317 | Acc: 0.074295% | F1: 0.00317%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 8.16332, best_acc = 0.07430%, best f1 = 0.00317%
+Epoch time: 15m/12.1h
+
+
+Train step   1 | Loss: 8.030744 | Acc: 0.095000%
+Train step   2 | Loss: 8.024997 | Acc: 0.087500%
+Train step   3 | Loss: 8.019207 | Acc: 0.080000%
+Train step   4 | Loss: 8.012539 | Acc: 0.071250%
+Train step   5 | Loss: 8.002019 | Acc: 0.077000%
+Train step   6 | Loss: 7.992927 | Acc: 0.079167%
+Train step   7 | Loss: 7.983032 | Acc: 0.083571%
+Train step   8 | Loss: 7.972114 | Acc: 0.078125%
+Train step   9 | Loss: 7.961314 | Acc: 0.075000%
+Train step  10 | Loss: 7.951908 | Acc: 0.075000%
+Train step  11 | Loss: 7.943553 | Acc: 0.072727%
+Train step  12 | Loss: 7.935361 | Acc: 0.073129%
+Epoch   6 | Train | Loss: 7.935361 | Acc: 0.073129%
+Epoch   6 |  Val  | Loss: 7.843273 | Acc: 0.056529% | F1: 0.00581%
+Model(loss) saved.
+Model(f1)) saved.
+Current best: min_loss = 7.84327, best_acc = 0.07430%, best f1 = 0.00581%
+Epoch time: 17m/12.1h
+
+
+Train step   1 | Loss: 7.768217 | Acc: 0.115000%
+Train step   2 | Loss: 7.762057 | Acc: 0.095000%
+Train step   3 | Loss: 7.758563 | Acc: 0.093333%
+Train step   4 | Loss: 7.751398 | Acc: 0.111250%
+Train step   5 | Loss: 7.746307 | Acc: 0.102000%
+Train step   6 | Loss: 7.739551 | Acc: 0.108333%
+Train step   7 | Loss: 7.732448 | Acc: 0.110000%
+Train step   8 | Loss: 7.722994 | Acc: 0.112500%
+Train step   9 | Loss: 7.713212 | Acc: 0.116667%
+Train step  10 | Loss: 7.705598 | Acc: 0.118500%
+Train step  11 | Loss: 7.697623 | Acc: 0.120909%
+Train step  12 | Loss: 7.691043 | Acc: 0.117258%
+Epoch   7 | Train | Loss: 7.691043 | Acc: 0.117258%
+Epoch   7 |  Val  | Loss: 7.639212 | Acc: 0.163127% | F1: 0.00467%
+Model(loss) saved.
+Model(acc) saved.
+Current best: min_loss = 7.63921, best_acc = 0.16313%, best f1 = 0.00581%
+Epoch time: 20m/12.1h
+
+
+Train step   1 | Loss: 7.534745 | Acc: 0.195000%
+Train step   2 | Loss: 7.536381 | Acc: 0.192500%
+Train step   3 | Loss: 7.527688 | Acc: 0.205000%
+Train step   4 | Loss: 7.529549 | Acc: 0.196250%
+Train step   5 | Loss: 7.529487 | Acc: 0.198000%
+Train step   6 | Loss: 7.532190 | Acc: 0.191667%
+Train step   7 | Loss: 7.534480 | Acc: 0.193571%
+Train step   8 | Loss: 7.531801 | Acc: 0.200000%
+Train step   9 | Loss: 7.526117 | Acc: 0.196667%
+Train step  10 | Loss: 7.525191 | Acc: 0.190000%
+Train step  11 | Loss: 7.519564 | Acc: 0.190455%
+Train step  12 | Loss: 7.512586 | Acc: 0.196691%
+Epoch   8 | Train | Loss: 7.512586 | Acc: 0.196691%
+Epoch   8 |  Val  | Loss: 7.526364 | Acc: 0.192199% | F1: 0.02240%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 7.52636, best_acc = 0.19220%, best f1 = 0.02240%
+Epoch time: 23m/12.0h
+
+
+Train step   1 | Loss: 7.367640 | Acc: 0.335000%
+Train step   2 | Loss: 7.360789 | Acc: 0.302500%
+Train step   3 | Loss: 7.356876 | Acc: 0.291667%
+Train step   4 | Loss: 7.348381 | Acc: 0.293750%
+Train step   5 | Loss: 7.343196 | Acc: 0.293000%
+Train step   6 | Loss: 7.334095 | Acc: 0.295000%
+Train step   7 | Loss: 7.325120 | Acc: 0.293571%
+Train step   8 | Loss: 7.313266 | Acc: 0.306250%
+Train step   9 | Loss: 7.300868 | Acc: 0.312222%
+Train step  10 | Loss: 7.288230 | Acc: 0.317500%
+Train step  11 | Loss: 7.277203 | Acc: 0.320000%
+Train step  12 | Loss: 7.265402 | Acc: 0.326977%
+Epoch   9 | Train | Loss: 7.265402 | Acc: 0.326977%
+Epoch   9 |  Val  | Loss: 7.537741 | Acc: 0.297182% | F1: 0.05988%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 1/25.
+Current best: min_loss = 7.52636, best_acc = 0.29718%, best f1 = 0.05988%
+Epoch time: 26m/12.0h
+
+
+Train step   1 | Loss: 7.065311 | Acc: 0.520000%
+Train step   2 | Loss: 7.063854 | Acc: 0.490000%
+Train step   3 | Loss: 7.072476 | Acc: 0.510000%
+Train step   4 | Loss: 7.094205 | Acc: 0.501250%
+Train step   5 | Loss: 7.096389 | Acc: 0.483000%
+Train step   6 | Loss: 7.090523 | Acc: 0.472500%
+Train step   7 | Loss: 7.084932 | Acc: 0.474286%
+Train step   8 | Loss: 7.075889 | Acc: 0.471875%
+Train step   9 | Loss: 7.064796 | Acc: 0.485556%
+Train step  10 | Loss: 7.053902 | Acc: 0.499500%
+Train step  11 | Loss: 7.043182 | Acc: 0.508182%
+Train step  12 | Loss: 7.030362 | Acc: 0.515683%
+Epoch  10 | Train | Loss: 7.030362 | Acc: 0.515683%
+Epoch  10 |  Val  | Loss: 7.218639 | Acc: 0.382783% | F1: 0.07422%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 7.21864, best_acc = 0.38278%, best f1 = 0.07422%
+Epoch time: 29m/12.0h
+
+
+Train step   1 | Loss: 6.828014 | Acc: 0.820000%
+Train step   2 | Loss: 6.820770 | Acc: 0.837500%
+Train step   3 | Loss: 6.807245 | Acc: 0.850000%
+Train step   4 | Loss: 6.799165 | Acc: 0.830000%
+Train step   5 | Loss: 6.790728 | Acc: 0.844000%
+Train step   6 | Loss: 6.781362 | Acc: 0.845000%
+Train step   7 | Loss: 6.768029 | Acc: 0.855000%
+Train step   8 | Loss: 6.757840 | Acc: 0.865000%
+Train step   9 | Loss: 6.744822 | Acc: 0.877778%
+Train step  10 | Loss: 6.731504 | Acc: 0.896500%
+Train step  11 | Loss: 6.719089 | Acc: 0.912727%
+Train step  12 | Loss: 6.715336 | Acc: 0.912847%
+Epoch  11 | Train | Loss: 6.715336 | Acc: 0.912847%
+Epoch  11 |  Val  | Loss: 6.944347 | Acc: 0.757490% | F1: 0.28552%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 6.94435, best_acc = 0.75749%, best f1 = 0.28552%
+Epoch time: 32m/12.0h
+
+
+Train step   1 | Loss: 6.619432 | Acc: 1.250000%
+Train step   2 | Loss: 6.559144 | Acc: 1.255000%
+Train step   3 | Loss: 6.531022 | Acc: 1.261667%
+Train step   4 | Loss: 6.508365 | Acc: 1.260000%
+Train step   5 | Loss: 6.481845 | Acc: 1.311000%
+Train step   6 | Loss: 6.457500 | Acc: 1.345000%
+Train step   7 | Loss: 6.431953 | Acc: 1.357143%
+Train step   8 | Loss: 6.406844 | Acc: 1.411875%
+Train step   9 | Loss: 6.387884 | Acc: 1.450556%
+Train step  10 | Loss: 6.369023 | Acc: 1.478500%
+Train step  11 | Loss: 6.351912 | Acc: 1.515909%
+Train step  12 | Loss: 6.342211 | Acc: 1.550831%
+Epoch  12 | Train | Loss: 6.342211 | Acc: 1.550831%
+Epoch  12 |  Val  | Loss: 6.588194 | Acc: 1.217799% | F1: 0.52285%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 6.58819, best_acc = 1.21780%, best f1 = 0.52285%
+Epoch time: 34m/12.0h
+
+
+Train step   1 | Loss: 6.139215 | Acc: 2.150000%
+Train step   2 | Loss: 6.095541 | Acc: 2.272500%
+Train step   3 | Loss: 6.089338 | Acc: 2.276667%
+Train step   4 | Loss: 6.072074 | Acc: 2.295000%
+Train step   5 | Loss: 6.060138 | Acc: 2.321000%
+Train step   6 | Loss: 6.038280 | Acc: 2.403333%
+Train step   7 | Loss: 6.018947 | Acc: 2.464286%
+Train step   8 | Loss: 5.996804 | Acc: 2.544375%
+Train step   9 | Loss: 5.973760 | Acc: 2.631111%
+Train step  10 | Loss: 5.956287 | Acc: 2.697500%
+Train step  11 | Loss: 5.938703 | Acc: 2.766818%
+Train step  12 | Loss: 5.917678 | Acc: 2.840248%
+Epoch  13 | Train | Loss: 5.917678 | Acc: 2.840248%
+Epoch  13 |  Val  | Loss: 5.858758 | Acc: 3.436970% | F1: 2.10504%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 5.85876, best_acc = 3.43697%, best f1 = 2.10504%
+Epoch time: 37m/11.9h
+
+
+Train step   1 | Loss: 5.614701 | Acc: 4.070000%
+Train step   2 | Loss: 5.592638 | Acc: 4.272500%
+Train step   3 | Loss: 5.565306 | Acc: 4.421667%
+Train step   4 | Loss: 5.545870 | Acc: 4.600000%
+Train step   5 | Loss: 5.532656 | Acc: 4.697000%
+Train step   6 | Loss: 5.512028 | Acc: 4.790833%
+Train step   7 | Loss: 5.493972 | Acc: 4.877143%
+Train step   8 | Loss: 5.478021 | Acc: 4.983750%
+Train step   9 | Loss: 5.464626 | Acc: 5.087778%
+Train step  10 | Loss: 5.452411 | Acc: 5.176000%
+Train step  11 | Loss: 5.439116 | Acc: 5.294545%
+Train step  12 | Loss: 5.419026 | Acc: 5.417400%
+Epoch  14 | Train | Loss: 5.419026 | Acc: 5.417400%
+Epoch  14 |  Val  | Loss: 6.221028 | Acc: 2.912057% | F1: 1.83219%
+Early stop counter 1/25.
+Current best: min_loss = 5.85876, best_acc = 3.43697%, best f1 = 2.10504%
+Epoch time: 40m/11.9h
+
+
+Train step   1 | Loss: 5.139476 | Acc: 7.180000%
+Train step   2 | Loss: 5.073267 | Acc: 7.642500%
+Train step   3 | Loss: 5.040182 | Acc: 7.948333%
+Train step   4 | Loss: 5.012104 | Acc: 8.238750%
+Train step   5 | Loss: 4.978291 | Acc: 8.451000%
+Train step   6 | Loss: 4.947078 | Acc: 8.746667%
+Train step   7 | Loss: 4.920364 | Acc: 9.027143%
+Train step   8 | Loss: 4.892816 | Acc: 9.277500%
+Train step   9 | Loss: 4.866377 | Acc: 9.481667%
+Train step  10 | Loss: 4.850958 | Acc: 9.651500%
+Train step  11 | Loss: 4.829821 | Acc: 9.830000%
+Train step  12 | Loss: 4.806633 | Acc: 10.041313%
+Epoch  15 | Train | Loss: 4.806633 | Acc: 10.041313%
+Epoch  15 |  Val  | Loss: 5.669560 | Acc: 8.497133% | F1: 7.28468%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 5.66956, best_acc = 8.49713%, best f1 = 7.28468%
+Epoch time: 43m/11.9h
+
+
+Train step   1 | Loss: 4.350174 | Acc: 14.245000%
+Train step   2 | Loss: 4.337992 | Acc: 14.540000%
+Train step   3 | Loss: 4.342299 | Acc: 14.543333%
+Train step   4 | Loss: 4.317229 | Acc: 14.880000%
+Train step   5 | Loss: 4.293464 | Acc: 15.209000%
+Train step   6 | Loss: 4.263311 | Acc: 15.640000%
+Train step   7 | Loss: 4.237375 | Acc: 15.957143%
+Train step   8 | Loss: 4.209389 | Acc: 16.294375%
+Train step   9 | Loss: 4.180983 | Acc: 16.655556%
+Train step  10 | Loss: 4.153020 | Acc: 17.017500%
+Train step  11 | Loss: 4.123539 | Acc: 17.451364%
+Train step  12 | Loss: 4.092351 | Acc: 17.829509%
+Epoch  16 | Train | Loss: 4.092351 | Acc: 17.829509%
+Epoch  16 |  Val  | Loss: 4.057994 | Acc: 20.784947% | F1: 19.72595%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 4.05799, best_acc = 20.78495%, best f1 = 19.72595%
+Epoch time: 46m/11.9h
+
+
+Train step   1 | Loss: 3.628615 | Acc: 24.125000%
+Train step   2 | Loss: 3.601009 | Acc: 24.960000%
+Train step   3 | Loss: 3.560938 | Acc: 25.345000%
+Train step   4 | Loss: 3.539770 | Acc: 25.533750%
+Train step   5 | Loss: 3.540109 | Acc: 25.518000%
+Train step   6 | Loss: 3.548763 | Acc: 25.415000%
+Train step   7 | Loss: 3.558414 | Acc: 25.410714%
+Train step   8 | Loss: 3.553873 | Acc: 25.399375%
+Train step   9 | Loss: 3.547954 | Acc: 25.520556%
+Train step  10 | Loss: 3.531571 | Acc: 25.772500%
+Train step  11 | Loss: 3.511667 | Acc: 26.086364%
+Train step  12 | Loss: 3.493788 | Acc: 26.346050%
+Epoch  17 | Train | Loss: 3.493788 | Acc: 26.346050%
+Epoch  17 |  Val  | Loss: 3.407440 | Acc: 28.799160% | F1: 28.47852%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 3.40744, best_acc = 28.79916%, best f1 = 28.47852%
+Epoch time: 49m/11.9h
+
+
+Train step   1 | Loss: 3.097384 | Acc: 32.725000%
+Train step   2 | Loss: 3.078978 | Acc: 32.815000%
+Train step   3 | Loss: 3.060110 | Acc: 33.168333%
+Train step   4 | Loss: 3.031219 | Acc: 33.665000%
+Train step   5 | Loss: 2.999360 | Acc: 34.292000%
+Train step   6 | Loss: 2.979743 | Acc: 34.616667%
+Train step   7 | Loss: 2.965814 | Acc: 34.948571%
+Train step   8 | Loss: 2.947850 | Acc: 35.260000%
+Train step   9 | Loss: 2.924121 | Acc: 35.673333%
+Train step  10 | Loss: 2.899744 | Acc: 36.121000%
+Train step  11 | Loss: 2.882982 | Acc: 36.467273%
+Train step  12 | Loss: 2.863061 | Acc: 36.835801%
+Epoch  18 | Train | Loss: 2.863061 | Acc: 36.835801%
+Epoch  18 |  Val  | Loss: 2.946182 | Acc: 37.685537% | F1: 38.75530%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 2.94618, best_acc = 37.68554%, best f1 = 38.75530%
+Epoch time: 51m/11.9h
+
+
+Train step   1 | Loss: 2.504651 | Acc: 42.945000%
+Train step   2 | Loss: 2.502964 | Acc: 43.320000%
+Train step   3 | Loss: 2.476479 | Acc: 43.785000%
+Train step   4 | Loss: 2.467428 | Acc: 43.971250%
+Train step   5 | Loss: 2.452753 | Acc: 44.252000%
+Train step   6 | Loss: 2.443907 | Acc: 44.436667%
+Train step   7 | Loss: 2.421710 | Acc: 44.927143%
+Train step   8 | Loss: 2.403060 | Acc: 45.329375%
+Train step   9 | Loss: 2.386871 | Acc: 45.638333%
+Train step  10 | Loss: 2.370242 | Acc: 45.982000%
+Train step  11 | Loss: 2.355195 | Acc: 46.270455%
+Train step  12 | Loss: 2.339279 | Acc: 46.541732%
+Epoch  19 | Train | Loss: 2.339279 | Acc: 46.541732%
+Epoch  19 |  Val  | Loss: 2.333130 | Acc: 48.648954% | F1: 50.24103%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 2.33313, best_acc = 48.64895%, best f1 = 50.24103%
+Epoch time: 54m/11.9h
+
+
+Train step   1 | Loss: 2.082819 | Acc: 51.530000%
+Train step   2 | Loss: 2.063896 | Acc: 52.062500%
+Train step   3 | Loss: 2.048369 | Acc: 52.453333%
+Train step   4 | Loss: 2.029934 | Acc: 52.756250%
+Train step   5 | Loss: 2.009749 | Acc: 53.216000%
+Train step   6 | Loss: 1.989903 | Acc: 53.560833%
+Train step   7 | Loss: 1.976460 | Acc: 53.941429%
+Train step   8 | Loss: 1.962206 | Acc: 54.223125%
+Train step   9 | Loss: 1.951581 | Acc: 54.470000%
+Train step  10 | Loss: 1.938253 | Acc: 54.728000%
+Train step  11 | Loss: 1.927982 | Acc: 54.901364%
+Train step  12 | Loss: 1.915069 | Acc: 55.195703%
+Epoch  20 | Train | Loss: 1.915069 | Acc: 55.195703%
+Epoch  20 |  Val  | Loss: 2.138790 | Acc: 53.214891% | F1: 55.73004%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 2.13879, best_acc = 53.21489%, best f1 = 55.73004%
+Epoch time: 57m/11.9h
+
+
+Train step   1 | Loss: 1.640643 | Acc: 60.775000%
+Train step   2 | Loss: 1.638273 | Acc: 60.787500%
+Train step   3 | Loss: 1.638303 | Acc: 60.805000%
+Train step   4 | Loss: 1.634585 | Acc: 60.917500%
+Train step   5 | Loss: 1.638656 | Acc: 60.798000%
+Train step   6 | Loss: 1.632835 | Acc: 60.993333%
+Train step   7 | Loss: 1.622089 | Acc: 61.213571%
+Train step   8 | Loss: 1.615763 | Acc: 61.410625%
+Train step   9 | Loss: 1.606890 | Acc: 61.604444%
+Train step  10 | Loss: 1.596470 | Acc: 61.807500%
+Train step  11 | Loss: 1.588073 | Acc: 61.974545%
+Train step  12 | Loss: 1.581435 | Acc: 62.107617%
+Epoch  21 | Train | Loss: 1.581435 | Acc: 62.107617%
+Epoch  21 |  Val  | Loss: 1.926269 | Acc: 58.669143% | F1: 61.26307%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 1.92627, best_acc = 58.66914%, best f1 = 61.26307%
+Epoch time: 60m/11.9h
+
+
+Train step   1 | Loss: 1.387313 | Acc: 66.655000%
+Train step   2 | Loss: 1.384597 | Acc: 66.465000%
+Train step   3 | Loss: 1.372988 | Acc: 66.683333%
+Train step   4 | Loss: 1.368237 | Acc: 66.770000%
+Train step   5 | Loss: 1.358877 | Acc: 66.994000%
+Train step   6 | Loss: 1.354151 | Acc: 67.200000%
+Train step   7 | Loss: 1.347485 | Acc: 67.358571%
+Train step   8 | Loss: 1.337782 | Acc: 67.571250%
+Train step   9 | Loss: 1.334459 | Acc: 67.618889%
+Train step  10 | Loss: 1.325211 | Acc: 67.843500%
+Train step  11 | Loss: 1.319456 | Acc: 67.955000%
+Train step  12 | Loss: 1.313296 | Acc: 68.078525%
+Epoch  22 | Train | Loss: 1.313296 | Acc: 68.078525%
+Epoch  22 |  Val  | Loss: 1.515904 | Acc: 65.005249% | F1: 67.46928%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 1.51590, best_acc = 65.00525%, best f1 = 67.46928%
+Epoch time: 1.0h/11.9h
+
+
+Train step   1 | Loss: 1.153449 | Acc: 71.600000%
+Train step   2 | Loss: 1.135978 | Acc: 71.942500%
+Train step   3 | Loss: 1.136037 | Acc: 71.880000%
+Train step   4 | Loss: 1.133904 | Acc: 71.976250%
+Train step   5 | Loss: 1.127712 | Acc: 72.062000%
+Train step   6 | Loss: 1.125361 | Acc: 72.118333%
+Train step   7 | Loss: 1.119913 | Acc: 72.247143%
+Train step   8 | Loss: 1.115514 | Acc: 72.356250%
+Train step   9 | Loss: 1.115775 | Acc: 72.322778%
+Train step  10 | Loss: 1.111745 | Acc: 72.423000%
+Train step  11 | Loss: 1.105000 | Acc: 72.559091%
+Train step  12 | Loss: 1.102642 | Acc: 72.611237%
+Epoch  23 | Train | Loss: 1.102642 | Acc: 72.611237%
+Epoch  23 |  Val  | Loss: 1.262557 | Acc: 70.115481% | F1: 72.34178%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 1.26256, best_acc = 70.11548%, best f1 = 72.34178%
+Epoch time: 1.1h/11.9h
+
+
+Train step   1 | Loss: 0.967389 | Acc: 75.560000%
+Train step   2 | Loss: 0.955742 | Acc: 75.820000%
+Train step   3 | Loss: 0.963387 | Acc: 75.840000%
+Train step   4 | Loss: 0.948233 | Acc: 76.221250%
+Train step   5 | Loss: 0.937948 | Acc: 76.436000%
+Train step   6 | Loss: 0.935696 | Acc: 76.463333%
+Train step   7 | Loss: 0.930855 | Acc: 76.623571%
+Train step   8 | Loss: 0.926526 | Acc: 76.739375%
+Train step   9 | Loss: 0.920968 | Acc: 76.849444%
+Train step  10 | Loss: 0.920641 | Acc: 76.842000%
+Train step  11 | Loss: 0.918167 | Acc: 76.929545%
+Train step  12 | Loss: 0.915271 | Acc: 76.989287%
+Epoch  24 | Train | Loss: 0.915271 | Acc: 76.989287%
+Epoch  24 |  Val  | Loss: 1.174008 | Acc: 72.350804% | F1: 74.46539%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 1.17401, best_acc = 72.35080%, best f1 = 74.46539%
+Epoch time: 1.1h/11.9h
+
+
+Train step   1 | Loss: 0.787606 | Acc: 79.975000%
+Train step   2 | Loss: 0.778106 | Acc: 80.265000%
+Train step   3 | Loss: 0.778128 | Acc: 80.315000%
+Train step   4 | Loss: 0.775643 | Acc: 80.352500%
+Train step   5 | Loss: 0.773104 | Acc: 80.370000%
+Train step   6 | Loss: 0.772568 | Acc: 80.390000%
+Train step   7 | Loss: 0.776039 | Acc: 80.310000%
+Train step   8 | Loss: 0.772415 | Acc: 80.406875%
+Train step   9 | Loss: 0.770043 | Acc: 80.501111%
+Train step  10 | Loss: 0.767583 | Acc: 80.564000%
+Train step  11 | Loss: 0.765612 | Acc: 80.597273%
+Train step  12 | Loss: 0.765660 | Acc: 80.584356%
+Epoch  25 | Train | Loss: 0.765660 | Acc: 80.584356%
+Epoch  25 |  Val  | Loss: 1.095503 | Acc: 74.487604% | F1: 76.49776%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 1.09550, best_acc = 74.48760%, best f1 = 76.49776%
+Epoch time: 1.2h/11.9h
+
+
+Train step   1 | Loss: 0.658252 | Acc: 82.835000%
+Train step   2 | Loss: 0.665557 | Acc: 82.845000%
+Train step   3 | Loss: 0.670159 | Acc: 82.796667%
+Train step   4 | Loss: 0.672717 | Acc: 82.737500%
+Train step   5 | Loss: 0.669890 | Acc: 82.753000%
+Train step   6 | Loss: 0.668382 | Acc: 82.761667%
+Train step   7 | Loss: 0.669611 | Acc: 82.772143%
+Train step   8 | Loss: 0.667107 | Acc: 82.833125%
+Train step   9 | Loss: 0.666754 | Acc: 82.847778%
+Train step  10 | Loss: 0.666508 | Acc: 82.840000%
+Train step  11 | Loss: 0.665240 | Acc: 82.863636%
+Train step  12 | Loss: 0.666065 | Acc: 82.853444%
+Epoch  26 | Train | Loss: 0.666065 | Acc: 82.853444%
+Epoch  26 |  Val  | Loss: 1.011137 | Acc: 76.440281% | F1: 78.57174%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 1.01114, best_acc = 76.44028%, best f1 = 78.57174%
+Epoch time: 1.2h/11.9h
+
+
+Train step   1 | Loss: 0.570838 | Acc: 85.385000%
+Train step   2 | Loss: 0.584873 | Acc: 84.967500%
+Train step   3 | Loss: 0.578863 | Acc: 85.130000%
+Train step   4 | Loss: 0.580992 | Acc: 84.996250%
+Train step   5 | Loss: 0.581160 | Acc: 84.965000%
+Train step   6 | Loss: 0.579164 | Acc: 85.020000%
+Train step   7 | Loss: 0.575553 | Acc: 85.101429%
+Train step   8 | Loss: 0.572120 | Acc: 85.193125%
+Train step   9 | Loss: 0.570774 | Acc: 85.221667%
+Train step  10 | Loss: 0.570489 | Acc: 85.214500%
+Train step  11 | Loss: 0.568840 | Acc: 85.228182%
+Train step  12 | Loss: 0.567812 | Acc: 85.257862%
+Epoch  27 | Train | Loss: 0.567812 | Acc: 85.257862%
+Epoch  27 |  Val  | Loss: 0.976125 | Acc: 77.347977% | F1: 79.12868%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.97612, best_acc = 77.34798%, best f1 = 79.12868%
+Epoch time: 1.3h/11.9h
+
+
+Train step   1 | Loss: 0.497011 | Acc: 86.810000%
+Train step   2 | Loss: 0.493489 | Acc: 87.067500%
+Train step   3 | Loss: 0.493303 | Acc: 87.006667%
+Train step   4 | Loss: 0.494162 | Acc: 87.013750%
+Train step   5 | Loss: 0.491045 | Acc: 87.095000%
+Train step   6 | Loss: 0.493453 | Acc: 87.048333%
+Train step   7 | Loss: 0.491277 | Acc: 87.140714%
+Train step   8 | Loss: 0.492446 | Acc: 87.115625%
+Train step   9 | Loss: 0.492446 | Acc: 87.073333%
+Train step  10 | Loss: 0.492110 | Acc: 87.083000%
+Train step  11 | Loss: 0.493544 | Acc: 87.033636%
+Train step  12 | Loss: 0.493889 | Acc: 87.024296%
+Epoch  28 | Train | Loss: 0.493889 | Acc: 87.024296%
+Epoch  28 |  Val  | Loss: 0.961972 | Acc: 78.457563% | F1: 80.34587%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.96197, best_acc = 78.45756%, best f1 = 80.34587%
+Epoch time: 1.3h/11.9h
+
+
+Train step   1 | Loss: 0.425477 | Acc: 88.485000%
+Train step   2 | Loss: 0.437045 | Acc: 88.360000%
+Train step   3 | Loss: 0.436466 | Acc: 88.301667%
+Train step   4 | Loss: 0.436760 | Acc: 88.330000%
+Train step   5 | Loss: 0.432792 | Acc: 88.466000%
+Train step   6 | Loss: 0.434321 | Acc: 88.490833%
+Train step   7 | Loss: 0.435640 | Acc: 88.488571%
+Train step   8 | Loss: 0.434941 | Acc: 88.496875%
+Train step   9 | Loss: 0.434932 | Acc: 88.480000%
+Train step  10 | Loss: 0.435494 | Acc: 88.455000%
+Train step  11 | Loss: 0.435091 | Acc: 88.478182%
+Train step  12 | Loss: 0.433763 | Acc: 88.521331%
+Epoch  29 | Train | Loss: 0.433763 | Acc: 88.521331%
+Epoch  29 |  Val  | Loss: 0.939433 | Acc: 78.795122% | F1: 80.60167%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.93943, best_acc = 78.79512%, best f1 = 80.60167%
+Epoch time: 1.4h/11.9h
+
+
+Train step   1 | Loss: 0.370975 | Acc: 90.410000%
+Train step   2 | Loss: 0.368855 | Acc: 90.357500%
+Train step   3 | Loss: 0.374440 | Acc: 90.170000%
+Train step   4 | Loss: 0.371925 | Acc: 90.077500%
+Train step   5 | Loss: 0.372800 | Acc: 90.063000%
+Train step   6 | Loss: 0.372251 | Acc: 90.066667%
+Train step   7 | Loss: 0.370272 | Acc: 90.128571%
+Train step   8 | Loss: 0.370260 | Acc: 90.112500%
+Train step   9 | Loss: 0.370576 | Acc: 90.095556%
+Train step  10 | Loss: 0.372127 | Acc: 90.054000%
+Train step  11 | Loss: 0.373484 | Acc: 90.022273%
+Train step  12 | Loss: 0.375023 | Acc: 89.979701%
+Epoch  30 | Train | Loss: 0.375023 | Acc: 89.979701%
+Epoch  30 |  Val  | Loss: 0.932153 | Acc: 79.313575% | F1: 81.13932%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.93215, best_acc = 79.31358%, best f1 = 81.13932%
+Epoch time: 1.4h/11.9h
+
+
+Train step   1 | Loss: 0.335638 | Acc: 91.045000%
+Train step   2 | Loss: 0.337059 | Acc: 90.965000%
+Train step   3 | Loss: 0.333503 | Acc: 91.051667%
+Train step   4 | Loss: 0.330568 | Acc: 91.126250%
+Train step   5 | Loss: 0.329183 | Acc: 91.156000%
+Train step   6 | Loss: 0.327832 | Acc: 91.188333%
+Train step   7 | Loss: 0.327376 | Acc: 91.197857%
+Train step   8 | Loss: 0.326269 | Acc: 91.225000%
+Train step   9 | Loss: 0.324600 | Acc: 91.244444%
+Train step  10 | Loss: 0.325114 | Acc: 91.206500%
+Train step  11 | Loss: 0.324775 | Acc: 91.236364%
+Train step  12 | Loss: 0.325266 | Acc: 91.232973%
+Epoch  31 | Train | Loss: 0.325266 | Acc: 91.232973%
+Epoch  31 |  Val  | Loss: 0.908819 | Acc: 80.253573% | F1: 82.07711%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.90882, best_acc = 80.25357%, best f1 = 82.07711%
+Epoch time: 1.5h/11.9h
+
+
+Train step   1 | Loss: 0.287249 | Acc: 92.190000%
+Train step   2 | Loss: 0.285161 | Acc: 92.237500%
+Train step   3 | Loss: 0.285118 | Acc: 92.205000%
+Train step   4 | Loss: 0.285328 | Acc: 92.170000%
+Train step   5 | Loss: 0.287329 | Acc: 92.123000%
+Train step   6 | Loss: 0.287030 | Acc: 92.147500%
+Train step   7 | Loss: 0.285772 | Acc: 92.202857%
+Train step   8 | Loss: 0.286971 | Acc: 92.206875%
+Train step   9 | Loss: 0.286259 | Acc: 92.220556%
+Train step  10 | Loss: 0.286941 | Acc: 92.216000%
+Train step  11 | Loss: 0.287506 | Acc: 92.195000%
+Train step  12 | Loss: 0.288450 | Acc: 92.172718%
+Epoch  32 | Train | Loss: 0.288450 | Acc: 92.172718%
+Epoch  32 |  Val  | Loss: 0.890371 | Acc: 81.319551% | F1: 83.04168%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.89037, best_acc = 81.31955%, best f1 = 83.04168%
+Epoch time: 1.5h/11.9h
+
+
+Train step   1 | Loss: 0.255565 | Acc: 93.165000%
+Train step   2 | Loss: 0.252571 | Acc: 93.190000%
+Train step   3 | Loss: 0.253865 | Acc: 93.161667%
+Train step   4 | Loss: 0.253719 | Acc: 93.145000%
+Train step   5 | Loss: 0.251997 | Acc: 93.209000%
+Train step   6 | Loss: 0.254480 | Acc: 93.111667%
+Train step   7 | Loss: 0.254451 | Acc: 93.066429%
+Train step   8 | Loss: 0.253250 | Acc: 93.090000%
+Train step   9 | Loss: 0.254446 | Acc: 93.050000%
+Train step  10 | Loss: 0.254428 | Acc: 93.052500%
+Train step  11 | Loss: 0.255450 | Acc: 93.029091%
+Train step  12 | Loss: 0.255737 | Acc: 93.023363%
+Epoch  33 | Train | Loss: 0.255737 | Acc: 93.023363%
+Epoch  33 |  Val  | Loss: 0.879550 | Acc: 81.106355% | F1: 82.87021%
+Model(loss) saved.
+Current best: min_loss = 0.87955, best_acc = 81.31955%, best f1 = 83.04168%
+Epoch time: 1.6h/11.9h
+
+
+Train step   1 | Loss: 0.213487 | Acc: 94.005000%
+Train step   2 | Loss: 0.218737 | Acc: 93.905000%
+Train step   3 | Loss: 0.222595 | Acc: 93.855000%
+Train step   4 | Loss: 0.222891 | Acc: 93.902500%
+Train step   5 | Loss: 0.222226 | Acc: 93.943000%
+Train step   6 | Loss: 0.222088 | Acc: 93.947500%
+Train step   7 | Loss: 0.222642 | Acc: 93.922857%
+Train step   8 | Loss: 0.222369 | Acc: 93.929375%
+Train step   9 | Loss: 0.221519 | Acc: 93.953889%
+Train step  10 | Loss: 0.221890 | Acc: 93.946500%
+Train step  11 | Loss: 0.222202 | Acc: 93.938636%
+Train step  12 | Loss: 0.223702 | Acc: 93.893342%
+Epoch  34 | Train | Loss: 0.223702 | Acc: 93.893342%
+Epoch  34 |  Val  | Loss: 0.904770 | Acc: 81.595736% | F1: 83.40668%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 1/25.
+Current best: min_loss = 0.87955, best_acc = 81.59574%, best f1 = 83.40668%
+Epoch time: 1.6h/11.9h
+
+
+Train step   1 | Loss: 0.200146 | Acc: 94.565000%
+Train step   2 | Loss: 0.196545 | Acc: 94.662500%
+Train step   3 | Loss: 0.195701 | Acc: 94.663333%
+Train step   4 | Loss: 0.195571 | Acc: 94.670000%
+Train step   5 | Loss: 0.195699 | Acc: 94.630000%
+Train step   6 | Loss: 0.195910 | Acc: 94.622500%
+Train step   7 | Loss: 0.195882 | Acc: 94.632143%
+Train step   8 | Loss: 0.195033 | Acc: 94.650000%
+Train step   9 | Loss: 0.194362 | Acc: 94.649444%
+Train step  10 | Loss: 0.195500 | Acc: 94.608000%
+Train step  11 | Loss: 0.196108 | Acc: 94.590000%
+Train step  12 | Loss: 0.197281 | Acc: 94.548137%
+Epoch  35 | Train | Loss: 0.197281 | Acc: 94.548137%
+Epoch  35 |  Val  | Loss: 0.858297 | Acc: 82.316078% | F1: 83.90466%
+Model(loss) saved.
+Model(acc) saved.
+Model(f1)) saved.
+Current best: min_loss = 0.85830, best_acc = 82.31608%, best f1 = 83.90466%
+Epoch time: 1.7h/11.8h
+
+
+Train step   1 | Loss: 0.169275 | Acc: 95.430000%
+Train step   2 | Loss: 0.169487 | Acc: 95.355000%
+Train step   3 | Loss: 0.167722 | Acc: 95.343333%
+Train step   4 | Loss: 0.170735 | Acc: 95.223750%
+Train step   5 | Loss: 0.171928 | Acc: 95.193000%
+Train step   6 | Loss: 0.172669 | Acc: 95.175833%
+Train step   7 | Loss: 0.171745 | Acc: 95.195714%
+Train step   8 | Loss: 0.171921 | Acc: 95.178750%
+Train step   9 | Loss: 0.172488 | Acc: 95.169444%
+Train step  10 | Loss: 0.173604 | Acc: 95.146000%
+Train step  11 | Loss: 0.174486 | Acc: 95.121818%
+Train step  12 | Loss: 0.175566 | Acc: 95.099963%
+Epoch  36 | Train | Loss: 0.175566 | Acc: 95.099963%
+Epoch  36 |  Val  | Loss: 0.889226 | Acc: 82.253089% | F1: 83.91454%
+Model(f1)) saved.
+Early stop counter 1/25.
+Current best: min_loss = 0.85830, best_acc = 82.31608%, best f1 = 83.91454%
+Epoch time: 1.7h/11.8h
+
+
+Train step   1 | Loss: 0.153474 | Acc: 95.900000%
+Train step   2 | Loss: 0.149604 | Acc: 95.935000%
+Train step   3 | Loss: 0.152090 | Acc: 95.795000%
+Train step   4 | Loss: 0.151826 | Acc: 95.768750%
+Train step   5 | Loss: 0.152735 | Acc: 95.749000%
+Train step   6 | Loss: 0.153077 | Acc: 95.735833%
+Train step   7 | Loss: 0.154060 | Acc: 95.705000%
+Train step   8 | Loss: 0.154967 | Acc: 95.670000%
+Train step   9 | Loss: 0.156282 | Acc: 95.628889%
+Train step  10 | Loss: 0.156905 | Acc: 95.580500%
+Train step  11 | Loss: 0.158036 | Acc: 95.531818%
+Train step  12 | Loss: 0.158955 | Acc: 95.496287%
+Epoch  37 | Train | Loss: 0.158955 | Acc: 95.496287%
+Epoch  37 |  Val  | Loss: 0.882971 | Acc: 82.396834% | F1: 84.03015%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 2/25.
+Current best: min_loss = 0.85830, best_acc = 82.39683%, best f1 = 84.03015%
+Epoch time: 1.8h/11.8h
+
+
+Train step   1 | Loss: 0.138171 | Acc: 96.150000%
+Train step   2 | Loss: 0.140309 | Acc: 96.072500%
+Train step   3 | Loss: 0.139656 | Acc: 96.161667%
+Train step   4 | Loss: 0.141429 | Acc: 96.100000%
+Train step   5 | Loss: 0.140918 | Acc: 96.085000%
+Train step   6 | Loss: 0.141827 | Acc: 96.035000%
+Train step   7 | Loss: 0.142664 | Acc: 95.997857%
+Train step   8 | Loss: 0.143557 | Acc: 95.970000%
+Train step   9 | Loss: 0.143584 | Acc: 95.968333%
+Train step  10 | Loss: 0.143564 | Acc: 95.953500%
+Train step  11 | Loss: 0.143586 | Acc: 95.948182%
+Train step  12 | Loss: 0.144043 | Acc: 95.926233%
+Epoch  38 | Train | Loss: 0.144043 | Acc: 95.926233%
+Epoch  38 |  Val  | Loss: 0.897282 | Acc: 82.632642% | F1: 84.35168%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 3/25.
+Current best: min_loss = 0.85830, best_acc = 82.63264%, best f1 = 84.35168%
+Epoch time: 1.8h/11.8h
+
+
+Train step   1 | Loss: 0.124876 | Acc: 96.570000%
+Train step   2 | Loss: 0.123292 | Acc: 96.577500%
+Train step   3 | Loss: 0.122467 | Acc: 96.566667%
+Train step   4 | Loss: 0.123765 | Acc: 96.513750%
+Train step   5 | Loss: 0.124842 | Acc: 96.471000%
+Train step   6 | Loss: 0.125395 | Acc: 96.442500%
+Train step   7 | Loss: 0.124937 | Acc: 96.469286%
+Train step   8 | Loss: 0.125542 | Acc: 96.450000%
+Train step   9 | Loss: 0.125802 | Acc: 96.445000%
+Train step  10 | Loss: 0.126600 | Acc: 96.421500%
+Train step  11 | Loss: 0.127065 | Acc: 96.408636%
+Train step  12 | Loss: 0.127928 | Acc: 96.377192%
+Epoch  39 | Train | Loss: 0.127928 | Acc: 96.377192%
+Epoch  39 |  Val  | Loss: 0.898654 | Acc: 82.963741% | F1: 84.62221%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 4/25.
+Current best: min_loss = 0.85830, best_acc = 82.96374%, best f1 = 84.62221%
+Epoch time: 1.8h/11.8h
+
+
+Train step   1 | Loss: 0.099914 | Acc: 97.150000%
+Train step   2 | Loss: 0.106270 | Acc: 96.970000%
+Train step   3 | Loss: 0.107138 | Acc: 96.931667%
+Train step   4 | Loss: 0.109099 | Acc: 96.888750%
+Train step   5 | Loss: 0.110524 | Acc: 96.845000%
+Train step   6 | Loss: 0.109752 | Acc: 96.878333%
+Train step   7 | Loss: 0.109199 | Acc: 96.900714%
+Train step   8 | Loss: 0.109297 | Acc: 96.891250%
+Train step   9 | Loss: 0.110189 | Acc: 96.862778%
+Train step  10 | Loss: 0.111078 | Acc: 96.836500%
+Train step  11 | Loss: 0.111420 | Acc: 96.825000%
+Train step  12 | Loss: 0.111522 | Acc: 96.823949%
+Epoch  40 | Train | Loss: 0.111522 | Acc: 96.823949%
+Epoch  40 |  Val  | Loss: 0.926910 | Acc: 82.622951% | F1: 84.36710%
+Early stop counter 5/25.
+Current best: min_loss = 0.85830, best_acc = 82.96374%, best f1 = 84.62221%
+Epoch time: 1.9h/11.8h
+
+
+Train step   1 | Loss: 0.096636 | Acc: 97.240000%
+Train step   2 | Loss: 0.099260 | Acc: 97.090000%
+Train step   3 | Loss: 0.098376 | Acc: 97.140000%
+Train step   4 | Loss: 0.098323 | Acc: 97.155000%
+Train step   5 | Loss: 0.098333 | Acc: 97.164000%
+Train step   6 | Loss: 0.098810 | Acc: 97.145000%
+Train step   7 | Loss: 0.098666 | Acc: 97.164286%
+Train step   8 | Loss: 0.099522 | Acc: 97.148125%
+Train step   9 | Loss: 0.100302 | Acc: 97.117778%
+Train step  10 | Loss: 0.100824 | Acc: 97.108000%
+Train step  11 | Loss: 0.101239 | Acc: 97.091818%
+Train step  12 | Loss: 0.102643 | Acc: 97.047118%
+Epoch  41 | Train | Loss: 0.102643 | Acc: 97.047118%
+Epoch  41 |  Val  | Loss: 0.899029 | Acc: 82.996043% | F1: 84.63723%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 6/25.
+Current best: min_loss = 0.85830, best_acc = 82.99604%, best f1 = 84.63723%
+Epoch time: 1.9h/11.8h
+
+
+Train step   1 | Loss: 0.090667 | Acc: 97.365000%
+Train step   2 | Loss: 0.087451 | Acc: 97.515000%
+Train step   3 | Loss: 0.088077 | Acc: 97.486667%
+Train step   4 | Loss: 0.089810 | Acc: 97.408750%
+Train step   5 | Loss: 0.089435 | Acc: 97.419000%
+Train step   6 | Loss: 0.090752 | Acc: 97.386667%
+Train step   7 | Loss: 0.090989 | Acc: 97.398571%
+Train step   8 | Loss: 0.091616 | Acc: 97.380000%
+Train step   9 | Loss: 0.091767 | Acc: 97.365556%
+Train step  10 | Loss: 0.092837 | Acc: 97.332000%
+Train step  11 | Loss: 0.093351 | Acc: 97.336818%
+Train step  12 | Loss: 0.094122 | Acc: 97.313154%
+Epoch  42 | Train | Loss: 0.094122 | Acc: 97.313154%
+Epoch  42 |  Val  | Loss: 0.939672 | Acc: 82.551886% | F1: 84.45868%
+Early stop counter 7/25.
+Current best: min_loss = 0.85830, best_acc = 82.99604%, best f1 = 84.63723%
+Epoch time: 2.0h/11.8h
+
+
+Train step   1 | Loss: 0.080977 | Acc: 97.675000%
+Train step   2 | Loss: 0.082758 | Acc: 97.582500%
+Train step   3 | Loss: 0.081625 | Acc: 97.631667%
+Train step   4 | Loss: 0.083298 | Acc: 97.590000%
+Train step   5 | Loss: 0.084194 | Acc: 97.568000%
+Train step   6 | Loss: 0.085271 | Acc: 97.531667%
+Train step   7 | Loss: 0.085268 | Acc: 97.546429%
+Train step   8 | Loss: 0.085411 | Acc: 97.549375%
+Train step   9 | Loss: 0.086077 | Acc: 97.534444%
+Train step  10 | Loss: 0.086266 | Acc: 97.525000%
+Train step  11 | Loss: 0.086162 | Acc: 97.523636%
+Train step  12 | Loss: 0.086312 | Acc: 97.527497%
+Epoch  43 | Train | Loss: 0.086312 | Acc: 97.527497%
+Epoch  43 |  Val  | Loss: 0.960860 | Acc: 82.417831% | F1: 84.19211%
+Early stop counter 8/25.
+Current best: min_loss = 0.85830, best_acc = 82.99604%, best f1 = 84.63723%
+Epoch time: 2.0h/11.8h
+
+
+Train step   1 | Loss: 0.068152 | Acc: 98.105000%
+Train step   2 | Loss: 0.069799 | Acc: 98.065000%
+Train step   3 | Loss: 0.071001 | Acc: 98.030000%
+Train step   4 | Loss: 0.071883 | Acc: 97.985000%
+Train step   5 | Loss: 0.072799 | Acc: 97.978000%
+Train step   6 | Loss: 0.073590 | Acc: 97.967500%
+Train step   7 | Loss: 0.073918 | Acc: 97.947143%
+Train step   8 | Loss: 0.074282 | Acc: 97.923125%
+Train step   9 | Loss: 0.074975 | Acc: 97.897778%
+Train step  10 | Loss: 0.075301 | Acc: 97.871500%
+Train step  11 | Loss: 0.075958 | Acc: 97.847727%
+Train step  12 | Loss: 0.075674 | Acc: 97.854894%
+Epoch  44 | Train | Loss: 0.075674 | Acc: 97.854894%
+Epoch  44 |  Val  | Loss: 0.923369 | Acc: 83.244771% | F1: 84.85243%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 9/25.
+Current best: min_loss = 0.85830, best_acc = 83.24477%, best f1 = 84.85243%
+Epoch time: 2.1h/11.8h
+
+
+Train step   1 | Loss: 0.069636 | Acc: 97.965000%
+Train step   2 | Loss: 0.067763 | Acc: 98.040000%
+Train step   3 | Loss: 0.067223 | Acc: 98.125000%
+Train step   4 | Loss: 0.066783 | Acc: 98.122500%
+Train step   5 | Loss: 0.067085 | Acc: 98.107000%
+Train step   6 | Loss: 0.067328 | Acc: 98.099167%
+Train step   7 | Loss: 0.068204 | Acc: 98.066429%
+Train step   8 | Loss: 0.067461 | Acc: 98.091875%
+Train step   9 | Loss: 0.067588 | Acc: 98.086111%
+Train step  10 | Loss: 0.067941 | Acc: 98.065500%
+Train step  11 | Loss: 0.068346 | Acc: 98.043182%
+Train step  12 | Loss: 0.068693 | Acc: 98.033933%
+Epoch  45 | Train | Loss: 0.068693 | Acc: 98.033933%
+Epoch  45 |  Val  | Loss: 0.934049 | Acc: 83.464427% | F1: 85.08573%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 10/25.
+Current best: min_loss = 0.85830, best_acc = 83.46443%, best f1 = 85.08573%
+Epoch time: 2.1h/11.8h
+
+
+Train step   1 | Loss: 0.060346 | Acc: 98.270000%
+Train step   2 | Loss: 0.059068 | Acc: 98.335000%
+Train step   3 | Loss: 0.059496 | Acc: 98.350000%
+Train step   4 | Loss: 0.059683 | Acc: 98.358750%
+Train step   5 | Loss: 0.060690 | Acc: 98.306000%
+Train step   6 | Loss: 0.060474 | Acc: 98.305000%
+Train step   7 | Loss: 0.061005 | Acc: 98.284286%
+Train step   8 | Loss: 0.060555 | Acc: 98.283125%
+Train step   9 | Loss: 0.061340 | Acc: 98.254444%
+Train step  10 | Loss: 0.061627 | Acc: 98.241000%
+Train step  11 | Loss: 0.062210 | Acc: 98.215000%
+Train step  12 | Loss: 0.062597 | Acc: 98.196161%
+Epoch  46 | Train | Loss: 0.062597 | Acc: 98.196161%
+Epoch  46 |  Val  | Loss: 0.909746 | Acc: 83.766454% | F1: 85.41685%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 11/25.
+Current best: min_loss = 0.85830, best_acc = 83.76645%, best f1 = 85.41685%
+Epoch time: 2.2h/11.8h
+
+
+Train step   1 | Loss: 0.055572 | Acc: 98.400000%
+Train step   2 | Loss: 0.053417 | Acc: 98.517500%
+Train step   3 | Loss: 0.053551 | Acc: 98.493333%
+Train step   4 | Loss: 0.054476 | Acc: 98.472500%
+Train step   5 | Loss: 0.055170 | Acc: 98.450000%
+Train step   6 | Loss: 0.055984 | Acc: 98.420000%
+Train step   7 | Loss: 0.056108 | Acc: 98.410714%
+Train step   8 | Loss: 0.056111 | Acc: 98.419375%
+Train step   9 | Loss: 0.056895 | Acc: 98.383333%
+Train step  10 | Loss: 0.057022 | Acc: 98.379500%
+Train step  11 | Loss: 0.057505 | Acc: 98.355000%
+Train step  12 | Loss: 0.057987 | Acc: 98.341158%
+Epoch  47 | Train | Loss: 0.057987 | Acc: 98.341158%
+Epoch  47 |  Val  | Loss: 0.918197 | Acc: 84.031333% | F1: 85.75780%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 12/25.
+Current best: min_loss = 0.85830, best_acc = 84.03133%, best f1 = 85.75780%
+Epoch time: 2.2h/11.8h
+
+
+Train step   1 | Loss: 0.050820 | Acc: 98.625000%
+Train step   2 | Loss: 0.051970 | Acc: 98.525000%
+Train step   3 | Loss: 0.051388 | Acc: 98.568333%
+Train step   4 | Loss: 0.052937 | Acc: 98.513750%
+Train step   5 | Loss: 0.052738 | Acc: 98.514000%
+Train step   6 | Loss: 0.053511 | Acc: 98.482500%
+Train step   7 | Loss: 0.053580 | Acc: 98.472857%
+Train step   8 | Loss: 0.053902 | Acc: 98.458125%
+Train step   9 | Loss: 0.053533 | Acc: 98.480556%
+Train step  10 | Loss: 0.053861 | Acc: 98.470500%
+Train step  11 | Loss: 0.054404 | Acc: 98.454545%
+Train step  12 | Loss: 0.054247 | Acc: 98.463879%
+Epoch  48 | Train | Loss: 0.054247 | Acc: 98.463879%
+Epoch  48 |  Val  | Loss: 0.914650 | Acc: 84.294597% | F1: 85.94374%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 13/25.
+Current best: min_loss = 0.85830, best_acc = 84.29460%, best f1 = 85.94374%
+Epoch time: 2.3h/11.8h
+
+
+Train step   1 | Loss: 0.043604 | Acc: 98.790000%
+Train step   2 | Loss: 0.045284 | Acc: 98.777500%
+Train step   3 | Loss: 0.046089 | Acc: 98.755000%
+Train step   4 | Loss: 0.046550 | Acc: 98.726250%
+Train step   5 | Loss: 0.047223 | Acc: 98.698000%
+Train step   6 | Loss: 0.046799 | Acc: 98.709167%
+Train step   7 | Loss: 0.046746 | Acc: 98.700714%
+Train step   8 | Loss: 0.046806 | Acc: 98.696875%
+Train step   9 | Loss: 0.047526 | Acc: 98.673889%
+Train step  10 | Loss: 0.047828 | Acc: 98.658000%
+Train step  11 | Loss: 0.048014 | Acc: 98.653636%
+Train step  12 | Loss: 0.048090 | Acc: 98.643759%
+Epoch  49 | Train | Loss: 0.048090 | Acc: 98.643759%
+Epoch  49 |  Val  | Loss: 0.944365 | Acc: 83.929581% | F1: 85.52264%
+Early stop counter 14/25.
+Current best: min_loss = 0.85830, best_acc = 84.29460%, best f1 = 85.94374%
+Epoch time: 2.3h/11.8h
+
+
+Train step   1 | Loss: 0.041948 | Acc: 98.895000%
+Train step   2 | Loss: 0.043444 | Acc: 98.837500%
+Train step   3 | Loss: 0.044707 | Acc: 98.776667%
+Train step   4 | Loss: 0.044096 | Acc: 98.797500%
+Train step   5 | Loss: 0.045008 | Acc: 98.752000%
+Train step   6 | Loss: 0.044981 | Acc: 98.749167%
+Train step   7 | Loss: 0.045442 | Acc: 98.724286%
+Train step   8 | Loss: 0.045983 | Acc: 98.714375%
+Train step   9 | Loss: 0.045956 | Acc: 98.713889%
+Train step  10 | Loss: 0.046063 | Acc: 98.712500%
+Train step  11 | Loss: 0.046424 | Acc: 98.690000%
+Train step  12 | Loss: 0.046726 | Acc: 98.679062%
+Epoch  50 | Train | Loss: 0.046726 | Acc: 98.679062%
+Epoch  50 |  Val  | Loss: 0.937245 | Acc: 83.755148% | F1: 85.29066%
+Early stop counter 15/25.
+Current best: min_loss = 0.85830, best_acc = 84.29460%, best f1 = 85.94374%
+Epoch time: 2.4h/11.8h
+
+
+Train step   1 | Loss: 0.038777 | Acc: 98.975000%
+Train step   2 | Loss: 0.039925 | Acc: 98.942500%
+Train step   3 | Loss: 0.041223 | Acc: 98.910000%
+Train step   4 | Loss: 0.041187 | Acc: 98.910000%
+Train step   5 | Loss: 0.042088 | Acc: 98.861000%
+Train step   6 | Loss: 0.041554 | Acc: 98.872500%
+Train step   7 | Loss: 0.041895 | Acc: 98.857143%
+Train step   8 | Loss: 0.042298 | Acc: 98.850625%
+Train step   9 | Loss: 0.042588 | Acc: 98.827222%
+Train step  10 | Loss: 0.042604 | Acc: 98.814500%
+Train step  11 | Loss: 0.042861 | Acc: 98.803636%
+Train step  12 | Loss: 0.043013 | Acc: 98.787914%
+Epoch  51 | Train | Loss: 0.043013 | Acc: 98.787914%
+Epoch  51 |  Val  | Loss: 0.965122 | Acc: 83.758378% | F1: 85.45724%
+Early stop counter 16/25.
+Current best: min_loss = 0.85830, best_acc = 84.29460%, best f1 = 85.94374%
+Epoch time: 2.4h/11.8h
+
+
+Train step   1 | Loss: 0.039599 | Acc: 98.875000%
+Train step   2 | Loss: 0.039392 | Acc: 98.905000%
+Train step   3 | Loss: 0.038492 | Acc: 98.966667%
+Train step   4 | Loss: 0.038877 | Acc: 98.951250%
+Train step   5 | Loss: 0.039042 | Acc: 98.955000%
+Train step   6 | Loss: 0.038815 | Acc: 98.948333%
+Train step   7 | Loss: 0.039106 | Acc: 98.942857%
+Train step   8 | Loss: 0.038981 | Acc: 98.953125%
+Train step   9 | Loss: 0.039079 | Acc: 98.947778%
+Train step  10 | Loss: 0.039411 | Acc: 98.921000%
+Train step  11 | Loss: 0.039529 | Acc: 98.915455%
+Train step  12 | Loss: 0.039730 | Acc: 98.903491%
+Epoch  52 | Train | Loss: 0.039730 | Acc: 98.903491%
+Epoch  52 |  Val  | Loss: 0.951821 | Acc: 84.407656% | F1: 86.00238%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 17/25.
+Current best: min_loss = 0.85830, best_acc = 84.40766%, best f1 = 86.00238%
+Epoch time: 2.5h/11.8h
+
+
+Train step   1 | Loss: 0.036138 | Acc: 98.995000%
+Train step   2 | Loss: 0.036624 | Acc: 98.992500%
+Train step   3 | Loss: 0.035927 | Acc: 99.008333%
+Train step   4 | Loss: 0.037224 | Acc: 98.971250%
+Train step   5 | Loss: 0.037538 | Acc: 98.977000%
+Train step   6 | Loss: 0.037995 | Acc: 98.964167%
+Train step   7 | Loss: 0.038044 | Acc: 98.960000%
+Train step   8 | Loss: 0.038419 | Acc: 98.942500%
+Train step   9 | Loss: 0.038942 | Acc: 98.920000%
+Train step  10 | Loss: 0.039023 | Acc: 98.917500%
+Train step  11 | Loss: 0.039488 | Acc: 98.897273%
+Train step  12 | Loss: 0.039523 | Acc: 98.886680%
+Epoch  53 | Train | Loss: 0.039523 | Acc: 98.886680%
+Epoch  53 |  Val  | Loss: 0.960378 | Acc: 83.894048% | F1: 85.58712%
+Early stop counter 18/25.
+Current best: min_loss = 0.85830, best_acc = 84.40766%, best f1 = 86.00238%
+Epoch time: 2.5h/11.8h
+
+
+Train step   1 | Loss: 0.033496 | Acc: 99.150000%
+Train step   2 | Loss: 0.034410 | Acc: 99.107500%
+Train step   3 | Loss: 0.034999 | Acc: 99.046667%
+Train step   4 | Loss: 0.035122 | Acc: 99.022500%
+Train step   5 | Loss: 0.035730 | Acc: 99.004000%
+Train step   6 | Loss: 0.036070 | Acc: 98.995000%
+Train step   7 | Loss: 0.036790 | Acc: 98.975000%
+Train step   8 | Loss: 0.036790 | Acc: 98.971875%
+Train step   9 | Loss: 0.036932 | Acc: 98.967222%
+Train step  10 | Loss: 0.036899 | Acc: 98.965500%
+Train step  11 | Loss: 0.036832 | Acc: 98.974091%
+Train step  12 | Loss: 0.037071 | Acc: 98.964432%
+Epoch  54 | Train | Loss: 0.037071 | Acc: 98.964432%
+Epoch  54 |  Val  | Loss: 0.973213 | Acc: 83.969959% | F1: 85.55533%
+Early stop counter 19/25.
+Current best: min_loss = 0.85830, best_acc = 84.40766%, best f1 = 86.00238%
+Epoch time: 2.6h/11.8h
+
+
+Train step   1 | Loss: 0.031717 | Acc: 99.230000%
+Train step   2 | Loss: 0.032800 | Acc: 99.145000%
+Train step   3 | Loss: 0.033978 | Acc: 99.096667%
+Train step   4 | Loss: 0.033548 | Acc: 99.101250%
+Train step   5 | Loss: 0.033490 | Acc: 99.100000%
+Train step   6 | Loss: 0.034127 | Acc: 99.072500%
+Train step   7 | Loss: 0.034607 | Acc: 99.052857%
+Train step   8 | Loss: 0.034619 | Acc: 99.055625%
+Train step   9 | Loss: 0.034373 | Acc: 99.061667%
+Train step  10 | Loss: 0.034560 | Acc: 99.056500%
+Train step  11 | Loss: 0.034454 | Acc: 99.061818%
+Train step  12 | Loss: 0.034620 | Acc: 99.054792%
+Epoch  55 | Train | Loss: 0.034620 | Acc: 99.054792%
+Epoch  55 |  Val  | Loss: 0.954294 | Acc: 84.304288% | F1: 85.87406%
+Early stop counter 20/25.
+Current best: min_loss = 0.85830, best_acc = 84.40766%, best f1 = 86.00238%
+Epoch time: 2.6h/11.8h
+
+
+Train step   1 | Loss: 0.032383 | Acc: 99.015000%
+Train step   2 | Loss: 0.032880 | Acc: 99.042500%
+Train step   3 | Loss: 0.032757 | Acc: 99.048333%
+Train step   4 | Loss: 0.032858 | Acc: 99.046250%
+Train step   5 | Loss: 0.032981 | Acc: 99.038000%
+Train step   6 | Loss: 0.032509 | Acc: 99.056667%
+Train step   7 | Loss: 0.032367 | Acc: 99.061429%
+Train step   8 | Loss: 0.032332 | Acc: 99.073750%
+Train step   9 | Loss: 0.032471 | Acc: 99.071111%
+Train step  10 | Loss: 0.032193 | Acc: 99.086000%
+Train step  11 | Loss: 0.032263 | Acc: 99.085000%
+Train step  12 | Loss: 0.032150 | Acc: 99.088414%
+Epoch  56 | Train | Loss: 0.032150 | Acc: 99.088414%
+Epoch  56 |  Val  | Loss: 0.939011 | Acc: 84.446418% | F1: 86.06677%
+Model(acc) saved.
+Model(f1)) saved.
+Early stop counter 21/25.
+Current best: min_loss = 0.85830, best_acc = 84.44642%, best f1 = 86.06677%
+Epoch time: 2.6h/11.8h
+
+
+Train step   1 | Loss: 0.028844 | Acc: 99.180000%
+Train step   2 | Loss: 0.029442 | Acc: 99.197500%
+Train step   3 | Loss: 0.029163 | Acc: 99.211667%
+Train step   4 | Loss: 0.029155 | Acc: 99.202500%
+Train step   5 | Loss: 0.028733 | Acc: 99.216000%
+Train step   6 | Loss: 0.028639 | Acc: 99.208333%
+Train step   7 | Loss: 0.028540 | Acc: 99.213571%
+Train step   8 | Loss: 0.028715 | Acc: 99.217500%
+Train step   9 | Loss: 0.028810 | Acc: 99.212222%
+Train step  10 | Loss: 0.028924 | Acc: 99.206000%
+Train step  11 | Loss: 0.028709 | Acc: 99.210455%
+Train step  12 | Loss: 0.028869 | Acc: 99.207773%
+Epoch  57 | Train | Loss: 0.028869 | Acc: 99.207773%
+Epoch  57 |  Val  | Loss: 0.993892 | Acc: 84.013567% | F1: 85.57283%
+Early stop counter 22/25.
+Current best: min_loss = 0.85830, best_acc = 84.44642%, best f1 = 86.06677%
+Epoch time: 2.7h/11.8h
+
+
+Train step   1 | Loss: 0.021983 | Acc: 99.465000%
+Train step   2 | Loss: 0.022434 | Acc: 99.435000%
+Train step   3 | Loss: 0.023773 | Acc: 99.370000%
+Train step   4 | Loss: 0.024308 | Acc: 99.361250%
+Train step   5 | Loss: 0.024899 | Acc: 99.354000%
+Train step   6 | Loss: 0.025174 | Acc: 99.347500%
+Train step   7 | Loss: 0.025801 | Acc: 99.325714%
+Train step   8 | Loss: 0.025885 | Acc: 99.315625%
+Train step   9 | Loss: 0.025987 | Acc: 99.308889%
+Train step  10 | Loss: 0.026186 | Acc: 99.303000%
+Train step  11 | Loss: 0.026651 | Acc: 99.285000%
+Train step  12 | Loss: 0.026657 | Acc: 99.284685%
+Epoch  58 | Train | Loss: 0.026657 | Acc: 99.284685%
+Epoch  58 |  Val  | Loss: 0.972004 | Acc: 84.123395% | F1: 85.73584%
+Early stop counter 23/25.
+Current best: min_loss = 0.85830, best_acc = 84.44642%, best f1 = 86.06677%
+Epoch time: 2.7h/11.8h
+
+
+Train step   1 | Loss: 0.026785 | Acc: 99.300000%
+Train step   2 | Loss: 0.025855 | Acc: 99.300000%
+Train step   3 | Loss: 0.025847 | Acc: 99.293333%
+Train step   4 | Loss: 0.025522 | Acc: 99.307500%
+Train step   5 | Loss: 0.025489 | Acc: 99.309000%
+Train step   6 | Loss: 0.025657 | Acc: 99.300000%
+Train step   7 | Loss: 0.025374 | Acc: 99.319286%
+Train step   8 | Loss: 0.025585 | Acc: 99.309375%
+Train step   9 | Loss: 0.025544 | Acc: 99.314444%
+Train step  10 | Loss: 0.025654 | Acc: 99.308500%
+Train step  11 | Loss: 0.025856 | Acc: 99.307273%
+Train step  12 | Loss: 0.025699 | Acc: 99.308641%
+Epoch  59 | Train | Loss: 0.025699 | Acc: 99.308641%
+Epoch  59 |  Val  | Loss: 0.977267 | Acc: 84.359202% | F1: 85.96072%
+Early stop counter 24/25.
+Current best: min_loss = 0.85830, best_acc = 84.44642%, best f1 = 86.06677%
+Epoch time: 2.8h/11.8h
+
+
+Train step   1 | Loss: 0.026273 | Acc: 99.255000%
+Train step   2 | Loss: 0.025832 | Acc: 99.285000%
+Train step   3 | Loss: 0.024744 | Acc: 99.326667%
+Train step   4 | Loss: 0.024394 | Acc: 99.347500%
+Train step   5 | Loss: 0.024515 | Acc: 99.340000%
+Train step   6 | Loss: 0.024378 | Acc: 99.347500%
+Train step   7 | Loss: 0.024509 | Acc: 99.342857%
+Train step   8 | Loss: 0.024553 | Acc: 99.338750%
+Train step   9 | Loss: 0.024555 | Acc: 99.331667%
+Train step  10 | Loss: 0.024588 | Acc: 99.333500%
+Train step  11 | Loss: 0.024623 | Acc: 99.335000%
+Train step  12 | Loss: 0.024438 | Acc: 99.340161%
+Epoch  60 | Train | Loss: 0.024438 | Acc: 99.340161%
+Epoch  60 |  Val  | Loss: 0.968363 | Acc: 84.535250% | F1: 86.04503%
+Model(acc) saved.
+Early stopped.
+Current best: min_loss = 0.85830, best_acc = 84.53525%, best f1 = 86.06677%
+Epoch time: 2.8h/11.8h
+Overall F1 score: 86.04502855395837%

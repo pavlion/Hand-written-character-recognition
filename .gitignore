@@ -1,0 +1,10 @@
+*.pth
+*.zip
+zipData/*
+postData/*
+Data0617/*
+cleanData/*
+croppedData/*
+data/*
+*.pyc
+.ipynb_checkpoints/

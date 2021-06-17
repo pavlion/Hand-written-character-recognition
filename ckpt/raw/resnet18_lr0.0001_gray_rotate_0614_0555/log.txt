@@ -1,0 +1,62 @@
+Set random seed to 2021
+Number of classes: 600
+Length of train/val datasets: 29271, 7614
+Length of train/val dataloaders: 30, 8
+Using 1 GPUs: GeForce RTX 3090
+Max/min/avg number of train datasets: 68, 8, 48.785
+Max/min/avg number of test datasets: 17, 3, 12.69
+Config:
+  - seed: 2021
+  - root_dir: data
+  - train_batch_size: 1000
+  - test_batch_size: 1000
+  - lr: 0.0001
+  - test_ratio: 0.2
+  - num_epoch: 200
+  - grad_accum_step: 1
+  - optim_type: Adam
+  - model_type: resnet18
+  - dest_path: ckpt/resnet18_lr0.0001_gray_rotate_0614_0555
+
+
+Epoch   1 | Train | Loss: 6.423018 | Acc: 0.259643%
+Epoch   1 |  Val  | Loss: 6.325273 | Acc: 0.617284%
+Model(loss) saved.
+Current best: min_loss = 6.32527, best_acc = 0.61728%
+Epoch time: 19.00s/1.1h
+
+
+Epoch   2 | Train | Loss: 6.231503 | Acc: 1.079567%
+Epoch   2 |  Val  | Loss: 6.204905 | Acc: 1.103231%
+Model(loss) saved.
+Current best: min_loss = 6.20491, best_acc = 1.10323%
+Epoch time: 39.00s/1.1h
+
+
+Epoch   3 | Train | Loss: 6.041130 | Acc: 2.135219%
+Epoch   3 |  Val  | Loss: 6.026657 | Acc: 1.996323%
+Model(loss) saved.
+Current best: min_loss = 6.02666, best_acc = 1.99632%
+Epoch time: 58.00s/1.1h
+
+
+Epoch   4 | Train | Loss: 5.810698 | Acc: 3.634997%
+Epoch   4 |  Val  | Loss: 5.816962 | Acc: 3.598634%
+Model(loss) saved.
+Current best: min_loss = 5.81696, best_acc = 3.59863%
+Epoch time: 1m/1.1h
+
+
+Epoch   5 | Train | Loss: 5.547568 | Acc: 5.882956%
+Epoch   5 |  Val  | Loss: 5.587595 | Acc: 5.082742%
+Model(loss) saved.
+Current best: min_loss = 5.58759, best_acc = 5.08274%
+Epoch time: 2m/1.1h
+
+
+Epoch   6 | Train | Loss: 5.261431 | Acc: 9.265143%
+Epoch   6 |  Val  | Loss: 5.325462 | Acc: 6.908327%
+Model(loss) saved.
+Current best: min_loss = 5.32546, best_acc = 6.90833%
+Epoch time: 2m/1.1h
+

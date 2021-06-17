@@ -1,0 +1,20 @@
+{
+    "seed": 2021,
+    "root_dir": "croppedData",
+    "train_batch_size": 10000,
+    "test_batch_size": 10000,
+    "lr": 1e-05,
+    "test_ratio": 0.2,
+    "num_epoch": 200,
+    "grad_accum_step": 2,
+    "data_parallel": false,
+    "optim_type": "Adam",
+    "loss_type": "CE",
+    "model_type": "resnet18",
+    "model_path": "ckpt/resnet18_4839_pretrain/best_loss.pth",
+    "train_isNull": false,
+    "gray_scale": false,
+    "use_imagenet_pretrain": false,
+    "cfg_str": "800class_",
+    "dest_path": "ckpt/resnet18_lr1e-05_CE_800class__0615_0657"
+}

@@ -1,0 +1,23 @@
+Set random seed to 2021
+Number of classes: 600
+Number of model parameters: 33448984
+Length of train/val datasets: 29271, 7614
+Length of train/val dataloaders: 15, 1
+Using 1 GPUs: GeForce RTX 3090
+Max/min/avg number of train datasets: 68, 8, 48.785
+Max/min/avg number of test datasets: 17, 3, 12.69
+Config:
+  - seed: 2021
+  - root_dir: data
+  - train_batch_size: 2000
+  - test_batch_size: 10000
+  - lr: 0.001
+  - test_ratio: 0.2
+  - num_epoch: 200
+  - grad_accum_step: 1
+  - optim_type: Adam
+  - model_type: resnet18_gray
+  - dest_path: ckpt/resnet18_gray_lr0.001_gray_rotate_0614_2035
+
+
+Epoch   1 | Train | Loss: 6.434376 | Acc: 0.269892%

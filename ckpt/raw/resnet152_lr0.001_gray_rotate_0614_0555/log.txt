@@ -1,0 +1,1447 @@
+Set random seed to 2021
+Number of classes: 600
+Length of train/val datasets: 29271, 7614
+Length of train/val dataloaders: 30, 8
+Using 1 GPUs: GeForce RTX 3090
+Max/min/avg number of train datasets: 68, 8, 48.785
+Max/min/avg number of test datasets: 17, 3, 12.69
+Config:
+  - seed: 2021
+  - root_dir: data
+  - train_batch_size: 1000
+  - test_batch_size: 1000
+  - lr: 0.001
+  - test_ratio: 0.2
+  - num_epoch: 200
+  - grad_accum_step: 1
+  - optim_type: Adam
+  - model_type: resnet152
+  - dest_path: ckpt/resnet152_lr0.001_gray_rotate_0614_0555
+
+
+Epoch   1 | Train | Loss: 6.707805 | Acc: 0.204981%
+Epoch   1 |  Val  | Loss: 6.540980 | Acc: 0.223273%
+Model(loss) saved.
+Current best: min_loss = 6.54098, best_acc = 0.22327%
+Epoch time: 36.00s/2.0h
+
+
+Epoch   2 | Train | Loss: 6.578497 | Acc: 0.160568%
+Epoch   2 |  Val  | Loss: 6.573512 | Acc: 0.249540%
+Model(acc) saved.
+Current best: min_loss = 6.54098, best_acc = 0.24954%
+Epoch time: 1m/2.1h
+
+
+Early stop counter 1/50.
+Epoch   3 | Train | Loss: 6.453777 | Acc: 0.235728%
+Epoch   3 |  Val  | Loss: 6.430997 | Acc: 0.262674%
+Model(loss) saved.
+Current best: min_loss = 6.43100, best_acc = 0.26267%
+Epoch time: 2m/2.1h
+
+
+Epoch   4 | Train | Loss: 6.384559 | Acc: 0.201565%
+Epoch   4 |  Val  | Loss: 6.379844 | Acc: 0.367744%
+Model(loss) saved.
+Current best: min_loss = 6.37984, best_acc = 0.36774%
+Epoch time: 2m/2.1h
+
+
+Epoch   5 | Train | Loss: 6.358482 | Acc: 0.222063%
+Epoch   5 |  Val  | Loss: 6.364575 | Acc: 0.288941%
+Model(loss) saved.
+Current best: min_loss = 6.36458, best_acc = 0.28894%
+Epoch time: 3m/2.1h
+
+
+Epoch   6 | Train | Loss: 6.310605 | Acc: 0.304055%
+Epoch   6 |  Val  | Loss: 6.282674 | Acc: 0.420278%
+Model(loss) saved.
+Current best: min_loss = 6.28267, best_acc = 0.42028%
+Epoch time: 4m/2.1h
+
+
+Epoch   7 | Train | Loss: 6.227482 | Acc: 0.444126%
+Epoch   7 |  Val  | Loss: 6.191924 | Acc: 0.617284%
+Model(loss) saved.
+Current best: min_loss = 6.19192, best_acc = 0.61728%
+Epoch time: 4m/2.0h
+
+
+Epoch   8 | Train | Loss: 6.090235 | Acc: 0.580780%
+Epoch   8 |  Val  | Loss: 6.069159 | Acc: 0.761755%
+Model(loss) saved.
+Current best: min_loss = 6.06916, best_acc = 0.76175%
+Epoch time: 5m/2.0h
+
+
+Epoch   9 | Train | Loss: 5.932977 | Acc: 0.884835%
+Epoch   9 |  Val  | Loss: 5.919580 | Acc: 0.906225%
+Model(loss) saved.
+Current best: min_loss = 5.91958, best_acc = 0.90623%
+Epoch time: 6m/2.0h
+
+
+Epoch  10 | Train | Loss: 5.729278 | Acc: 1.253801%
+Epoch  10 |  Val  | Loss: 5.754160 | Acc: 1.470975%
+Model(loss) saved.
+Current best: min_loss = 5.75416, best_acc = 1.47097%
+Epoch time: 6m/2.0h
+
+
+Epoch  11 | Train | Loss: 5.465289 | Acc: 2.101056%
+Epoch  11 |  Val  | Loss: 5.483513 | Acc: 2.167061%
+Model(loss) saved.
+Current best: min_loss = 5.48351, best_acc = 2.16706%
+Epoch time: 7m/2.0h
+
+
+Epoch  12 | Train | Loss: 5.146958 | Acc: 3.634997%
+Epoch  12 |  Val  | Loss: 5.158240 | Acc: 4.557394%
+Model(loss) saved.
+Current best: min_loss = 5.15824, best_acc = 4.55739%
+Epoch time: 7m/2.0h
+
+
+Epoch  13 | Train | Loss: 4.797266 | Acc: 5.701889%
+Epoch  13 |  Val  | Loss: 4.938034 | Acc: 5.358550%
+Model(loss) saved.
+Current best: min_loss = 4.93803, best_acc = 5.35855%
+Epoch time: 8m/2.0h
+
+
+Epoch  14 | Train | Loss: 4.549052 | Acc: 7.997677%
+Epoch  14 |  Val  | Loss: 4.556383 | Acc: 8.050959%
+Model(loss) saved.
+Current best: min_loss = 4.55638, best_acc = 8.05096%
+Epoch time: 9m/2.0h
+
+
+Epoch  15 | Train | Loss: 4.069006 | Acc: 12.835229%
+Epoch  15 |  Val  | Loss: 4.299733 | Acc: 11.846598%
+Model(loss) saved.
+Current best: min_loss = 4.29973, best_acc = 11.84660%
+Epoch time: 9m/2.0h
+
+
+Epoch  16 | Train | Loss: 3.594789 | Acc: 19.808001%
+Epoch  16 |  Val  | Loss: 3.858858 | Acc: 17.559758%
+Model(loss) saved.
+Current best: min_loss = 3.85886, best_acc = 17.55976%
+Epoch time: 10m/2.0h
+
+
+Epoch  17 | Train | Loss: 3.084544 | Acc: 28.307882%
+Epoch  17 |  Val  | Loss: 3.450791 | Acc: 24.323614%
+Model(loss) saved.
+Current best: min_loss = 3.45079, best_acc = 24.32361%
+Epoch time: 10m/2.0h
+
+
+Epoch  18 | Train | Loss: 2.595270 | Acc: 37.193810%
+Epoch  18 |  Val  | Loss: 3.075428 | Acc: 30.745994%
+Model(loss) saved.
+Current best: min_loss = 3.07543, best_acc = 30.74599%
+Epoch time: 11m/2.0h
+
+
+Epoch  19 | Train | Loss: 2.083861 | Acc: 47.733251%
+Epoch  19 |  Val  | Loss: 2.773617 | Acc: 38.035198%
+Model(loss) saved.
+Current best: min_loss = 2.77362, best_acc = 38.03520%
+Epoch time: 12m/2.0h
+
+
+Epoch  20 | Train | Loss: 1.693301 | Acc: 56.106727%
+Epoch  20 |  Val  | Loss: 2.629262 | Acc: 40.950880%
+Model(loss) saved.
+Current best: min_loss = 2.62926, best_acc = 40.95088%
+Epoch time: 12m/2.0h
+
+
+Epoch  21 | Train | Loss: 1.344109 | Acc: 64.350381%
+Epoch  21 |  Val  | Loss: 2.379434 | Acc: 47.123719%
+Model(loss) saved.
+Current best: min_loss = 2.37943, best_acc = 47.12372%
+Epoch time: 13m/2.0h
+
+
+Epoch  22 | Train | Loss: 1.126942 | Acc: 69.413413%
+Epoch  22 |  Val  | Loss: 2.277753 | Acc: 49.566588%
+Model(loss) saved.
+Current best: min_loss = 2.27775, best_acc = 49.56659%
+Epoch time: 13m/2.0h
+
+
+Epoch  23 | Train | Loss: 0.865434 | Acc: 75.808821%
+Epoch  23 |  Val  | Loss: 2.281635 | Acc: 50.945626%
+Model(acc) saved.
+Current best: min_loss = 2.27775, best_acc = 50.94563%
+Epoch time: 14m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  24 | Train | Loss: 0.686844 | Acc: 80.701035%
+Epoch  24 |  Val  | Loss: 2.286819 | Acc: 51.457841%
+Model(acc) saved.
+Current best: min_loss = 2.27775, best_acc = 51.45784%
+Epoch time: 15m/2.0h
+
+
+Early stop counter 2/50.
+Epoch  25 | Train | Loss: 0.560556 | Acc: 83.844078%
+Epoch  25 |  Val  | Loss: 2.243019 | Acc: 53.821907%
+Model(loss) saved.
+Current best: min_loss = 2.24302, best_acc = 53.82191%
+Epoch time: 15m/2.0h
+
+
+Epoch  26 | Train | Loss: 0.424311 | Acc: 88.032524%
+Epoch  26 |  Val  | Loss: 2.197553 | Acc: 56.527449%
+Model(loss) saved.
+Current best: min_loss = 2.19755, best_acc = 56.52745%
+Epoch time: 16m/2.0h
+
+
+Epoch  27 | Train | Loss: 0.332824 | Acc: 90.324895%
+Epoch  27 |  Val  | Loss: 2.234419 | Acc: 56.868926%
+Model(acc) saved.
+Current best: min_loss = 2.19755, best_acc = 56.86893%
+Epoch time: 16m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  28 | Train | Loss: 0.284956 | Acc: 92.115063%
+Epoch  28 |  Val  | Loss: 2.522975 | Acc: 54.071447%
+Current best: min_loss = 2.19755, best_acc = 56.86893%
+Epoch time: 17m/2.0h
+
+
+Early stop counter 2/50.
+Epoch  29 | Train | Loss: 0.944222 | Acc: 74.408117%
+Epoch  29 |  Val  | Loss: 2.063572 | Acc: 55.752561%
+Model(loss) saved.
+Current best: min_loss = 2.06357, best_acc = 55.75256%
+Epoch time: 18m/2.0h
+
+
+Epoch  30 | Train | Loss: 0.504025 | Acc: 85.354105%
+Epoch  30 |  Val  | Loss: 1.987389 | Acc: 59.127922%
+Model(loss) saved.
+Current best: min_loss = 1.98739, best_acc = 59.12792%
+Epoch time: 18m/2.0h
+
+
+Epoch  31 | Train | Loss: 0.277876 | Acc: 92.050152%
+Epoch  31 |  Val  | Loss: 1.977764 | Acc: 60.940373%
+Model(loss) saved.
+Current best: min_loss = 1.97776, best_acc = 60.94037%
+Epoch time: 19m/2.0h
+
+
+Epoch  32 | Train | Loss: 0.179978 | Acc: 95.186362%
+Epoch  32 |  Val  | Loss: 1.965743 | Acc: 62.306278%
+Model(loss) saved.
+Current best: min_loss = 1.96574, best_acc = 62.30628%
+Epoch time: 20m/2.0h
+
+
+Epoch  33 | Train | Loss: 0.125489 | Acc: 96.744218%
+Epoch  33 |  Val  | Loss: 1.986828 | Acc: 63.173102%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 63.17310%
+Epoch time: 20m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  34 | Train | Loss: 0.094449 | Acc: 97.615387%
+Epoch  34 |  Val  | Loss: 1.989131 | Acc: 63.750985%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 63.75099%
+Epoch time: 21m/2.0h
+
+
+Early stop counter 2/50.
+Epoch  35 | Train | Loss: 0.070595 | Acc: 98.298657%
+Epoch  35 |  Val  | Loss: 2.001240 | Acc: 64.158130%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 64.15813%
+Epoch time: 21m/2.0h
+
+
+Early stop counter 3/50.
+Epoch  36 | Train | Loss: 0.063780 | Acc: 98.544635%
+Epoch  36 |  Val  | Loss: 1.974401 | Acc: 64.407670%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 64.40767%
+Epoch time: 22m/2.0h
+
+
+Early stop counter 4/50.
+Epoch  37 | Train | Loss: 0.063280 | Acc: 98.558300%
+Epoch  37 |  Val  | Loss: 2.027461 | Acc: 64.578408%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 64.57841%
+Epoch time: 23m/2.0h
+
+
+Early stop counter 5/50.
+Epoch  38 | Train | Loss: 0.058296 | Acc: 98.643709%
+Epoch  38 |  Val  | Loss: 2.008056 | Acc: 64.473339%
+Current best: min_loss = 1.96574, best_acc = 64.57841%
+Epoch time: 23m/2.0h
+
+
+Early stop counter 6/50.
+Epoch  39 | Train | Loss: 0.050928 | Acc: 98.869188%
+Epoch  39 |  Val  | Loss: 2.008741 | Acc: 65.077489%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 65.07749%
+Epoch time: 24m/2.0h
+
+
+Early stop counter 7/50.
+Epoch  40 | Train | Loss: 0.051550 | Acc: 98.889686%
+Epoch  40 |  Val  | Loss: 2.003485 | Acc: 65.589703%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 65.58970%
+Epoch time: 24m/2.0h
+
+
+Early stop counter 8/50.
+Epoch  41 | Train | Loss: 0.046149 | Acc: 98.917017%
+Epoch  41 |  Val  | Loss: 1.996451 | Acc: 65.484634%
+Current best: min_loss = 1.96574, best_acc = 65.58970%
+Epoch time: 25m/2.0h
+
+
+Early stop counter 9/50.
+Epoch  42 | Train | Loss: 0.045730 | Acc: 98.930682%
+Epoch  42 |  Val  | Loss: 2.066508 | Acc: 65.221960%
+Current best: min_loss = 1.96574, best_acc = 65.58970%
+Epoch time: 26m/2.0h
+
+
+Early stop counter 10/50.
+Epoch  43 | Train | Loss: 0.037024 | Acc: 99.169827%
+Epoch  43 |  Val  | Loss: 2.059767 | Acc: 65.169425%
+Current best: min_loss = 1.96574, best_acc = 65.58970%
+Epoch time: 26m/2.0h
+
+
+Early stop counter 11/50.
+Epoch  44 | Train | Loss: 0.036522 | Acc: 99.149329%
+Epoch  44 |  Val  | Loss: 2.072364 | Acc: 65.681639%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 65.68164%
+Epoch time: 27m/2.0h
+
+
+Early stop counter 12/50.
+Epoch  45 | Train | Loss: 0.030541 | Acc: 99.374808%
+Epoch  45 |  Val  | Loss: 2.018188 | Acc: 66.062516%
+Model(acc) saved.
+Current best: min_loss = 1.96574, best_acc = 66.06252%
+Epoch time: 27m/2.0h
+
+
+Early stop counter 13/50.
+Epoch  46 | Train | Loss: 0.028319 | Acc: 99.354310%
+Epoch  46 |  Val  | Loss: 2.260390 | Acc: 63.488311%
+Current best: min_loss = 1.96574, best_acc = 66.06252%
+Epoch time: 28m/2.0h
+
+
+Early stop counter 14/50.
+Epoch  47 | Train | Loss: 0.314363 | Acc: 91.278057%
+Epoch  47 |  Val  | Loss: 2.244098 | Acc: 59.745206%
+Current best: min_loss = 1.96574, best_acc = 66.06252%
+Epoch time: 29m/2.0h
+
+
+Early stop counter 15/50.
+Epoch  48 | Train | Loss: 0.250457 | Acc: 92.234635%
+Epoch  48 |  Val  | Loss: 1.981442 | Acc: 63.632782%
+Current best: min_loss = 1.96574, best_acc = 66.06252%
+Epoch time: 29m/2.0h
+
+
+Early stop counter 16/50.
+Epoch  49 | Train | Loss: 0.137384 | Acc: 95.903796%
+Epoch  49 |  Val  | Loss: 2.021492 | Acc: 64.118729%
+Current best: min_loss = 1.96574, best_acc = 66.06252%
+Epoch time: 30m/2.0h
+
+
+Early stop counter 17/50.
+Epoch  50 | Train | Loss: 0.091745 | Acc: 97.444570%
+Epoch  50 |  Val  | Loss: 1.934138 | Acc: 65.484634%
+Model(loss) saved.
+Current best: min_loss = 1.93414, best_acc = 65.48463%
+Epoch time: 30m/2.0h
+
+
+Epoch  51 | Train | Loss: 0.072246 | Acc: 98.015100%
+Epoch  51 |  Val  | Loss: 1.962588 | Acc: 65.694773%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 65.69477%
+Epoch time: 31m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  52 | Train | Loss: 0.054262 | Acc: 98.606129%
+Epoch  52 |  Val  | Loss: 1.951559 | Acc: 67.047544%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 32m/2.0h
+
+
+Early stop counter 2/50.
+Epoch  53 | Train | Loss: 0.037209 | Acc: 99.118582%
+Epoch  53 |  Val  | Loss: 1.990293 | Acc: 66.784870%
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 32m/2.0h
+
+
+Early stop counter 3/50.
+Epoch  54 | Train | Loss: 0.080668 | Acc: 97.875030%
+Epoch  54 |  Val  | Loss: 2.112013 | Acc: 64.670344%
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 33m/2.0h
+
+
+Early stop counter 4/50.
+Epoch  55 | Train | Loss: 0.076421 | Acc: 97.830617%
+Epoch  55 |  Val  | Loss: 1.993034 | Acc: 65.721040%
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 34m/2.0h
+
+
+Early stop counter 5/50.
+Epoch  56 | Train | Loss: 0.059422 | Acc: 98.356735%
+Epoch  56 |  Val  | Loss: 1.941063 | Acc: 66.903073%
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 34m/2.0h
+
+
+Early stop counter 6/50.
+Epoch  57 | Train | Loss: 0.060739 | Acc: 98.339654%
+Epoch  57 |  Val  | Loss: 2.023414 | Acc: 65.760441%
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 35m/2.0h
+
+
+Early stop counter 7/50.
+Epoch  58 | Train | Loss: 0.039866 | Acc: 98.944348%
+Epoch  58 |  Val  | Loss: 1.957648 | Acc: 66.706068%
+Current best: min_loss = 1.93414, best_acc = 67.04754%
+Epoch time: 35m/2.0h
+
+
+Early stop counter 8/50.
+Epoch  59 | Train | Loss: 0.032918 | Acc: 99.244987%
+Epoch  59 |  Val  | Loss: 1.959303 | Acc: 68.098240%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 36m/2.0h
+
+
+Early stop counter 9/50.
+Epoch  60 | Train | Loss: 0.028454 | Acc: 99.313314%
+Epoch  60 |  Val  | Loss: 1.957371 | Acc: 67.769898%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 37m/2.0h
+
+
+Early stop counter 10/50.
+Epoch  61 | Train | Loss: 0.058719 | Acc: 98.739367%
+Epoch  61 |  Val  | Loss: 2.002882 | Acc: 66.745469%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 37m/2.0h
+
+
+Early stop counter 11/50.
+Epoch  62 | Train | Loss: 0.073367 | Acc: 98.052680%
+Epoch  62 |  Val  | Loss: 2.113907 | Acc: 65.392698%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 38m/2.0h
+
+
+Early stop counter 12/50.
+Epoch  63 | Train | Loss: 0.051062 | Acc: 98.660791%
+Epoch  63 |  Val  | Loss: 2.010086 | Acc: 67.034410%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 38m/2.0h
+
+
+Early stop counter 13/50.
+Epoch  64 | Train | Loss: 0.043549 | Acc: 98.940931%
+Epoch  64 |  Val  | Loss: 2.068607 | Acc: 66.706068%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 39m/2.0h
+
+
+Early stop counter 14/50.
+Epoch  65 | Train | Loss: 0.083894 | Acc: 97.656383%
+Epoch  65 |  Val  | Loss: 2.067257 | Acc: 65.852377%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 40m/2.0h
+
+
+Early stop counter 15/50.
+Epoch  66 | Train | Loss: 0.054648 | Acc: 98.479724%
+Epoch  66 |  Val  | Loss: 2.030513 | Acc: 66.863672%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 40m/2.0h
+
+
+Early stop counter 16/50.
+Epoch  67 | Train | Loss: 0.032327 | Acc: 99.169827%
+Epoch  67 |  Val  | Loss: 1.951787 | Acc: 68.098240%
+Current best: min_loss = 1.93414, best_acc = 68.09824%
+Epoch time: 41m/2.0h
+
+
+Early stop counter 17/50.
+Epoch  68 | Train | Loss: 0.025121 | Acc: 99.419220%
+Epoch  68 |  Val  | Loss: 1.964644 | Acc: 68.426583%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 68.42658%
+Epoch time: 41m/2.0h
+
+
+Early stop counter 18/50.
+Epoch  69 | Train | Loss: 0.024549 | Acc: 99.426053%
+Epoch  69 |  Val  | Loss: 2.001116 | Acc: 68.781193%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 68.78119%
+Epoch time: 42m/2.0h
+
+
+Early stop counter 19/50.
+Epoch  70 | Train | Loss: 0.022592 | Acc: 99.497796%
+Epoch  70 |  Val  | Loss: 1.976254 | Acc: 68.360914%
+Current best: min_loss = 1.93414, best_acc = 68.78119%
+Epoch time: 43m/2.0h
+
+
+Early stop counter 20/50.
+Epoch  71 | Train | Loss: 0.018869 | Acc: 99.562707%
+Epoch  71 |  Val  | Loss: 1.936299 | Acc: 69.096401%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 69.09640%
+Epoch time: 43m/2.0h
+
+
+Early stop counter 21/50.
+Epoch  72 | Train | Loss: 0.023701 | Acc: 99.463633%
+Epoch  72 |  Val  | Loss: 2.008339 | Acc: 68.334647%
+Current best: min_loss = 1.93414, best_acc = 69.09640%
+Epoch time: 44m/2.0h
+
+
+Early stop counter 22/50.
+Epoch  73 | Train | Loss: 0.022101 | Acc: 99.484131%
+Epoch  73 |  Val  | Loss: 1.999604 | Acc: 68.295246%
+Current best: min_loss = 1.93414, best_acc = 69.09640%
+Epoch time: 44m/2.0h
+
+
+Early stop counter 23/50.
+Epoch  74 | Train | Loss: 0.019806 | Acc: 99.562707%
+Epoch  74 |  Val  | Loss: 1.987875 | Acc: 68.820594%
+Current best: min_loss = 1.93414, best_acc = 69.09640%
+Epoch time: 45m/2.0h
+
+
+Early stop counter 24/50.
+Epoch  75 | Train | Loss: 0.020331 | Acc: 99.555874%
+Epoch  75 |  Val  | Loss: 1.994705 | Acc: 69.359075%
+Model(acc) saved.
+Current best: min_loss = 1.93414, best_acc = 69.35908%
+Epoch time: 46m/2.0h
+
+
+Early stop counter 25/50.
+Epoch  76 | Train | Loss: 0.016164 | Acc: 99.651532%
+Epoch  76 |  Val  | Loss: 1.969946 | Acc: 69.175204%
+Current best: min_loss = 1.93414, best_acc = 69.35908%
+Epoch time: 46m/2.0h
+
+
+Early stop counter 26/50.
+Epoch  77 | Train | Loss: 0.015257 | Acc: 99.675447%
+Epoch  77 |  Val  | Loss: 1.933139 | Acc: 69.529814%
+Model(loss) saved.
+Current best: min_loss = 1.93314, best_acc = 69.52981%
+Epoch time: 47m/2.0h
+
+
+Epoch  78 | Train | Loss: 0.013257 | Acc: 99.736941%
+Epoch  78 |  Val  | Loss: 1.970237 | Acc: 69.556081%
+Model(acc) saved.
+Current best: min_loss = 1.93314, best_acc = 69.55608%
+Epoch time: 47m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  79 | Train | Loss: 0.012993 | Acc: 99.713027%
+Epoch  79 |  Val  | Loss: 1.916232 | Acc: 70.252167%
+Model(loss) saved.
+Current best: min_loss = 1.91623, best_acc = 70.25217%
+Epoch time: 48m/2.0h
+
+
+Epoch  80 | Train | Loss: 0.011896 | Acc: 99.771105%
+Epoch  80 |  Val  | Loss: 1.923199 | Acc: 69.897557%
+Current best: min_loss = 1.91623, best_acc = 70.25217%
+Epoch time: 49m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  81 | Train | Loss: 0.010046 | Acc: 99.791603%
+Epoch  81 |  Val  | Loss: 1.906033 | Acc: 70.278434%
+Model(loss) saved.
+Current best: min_loss = 1.90603, best_acc = 70.27843%
+Epoch time: 49m/2.0h
+
+
+Epoch  82 | Train | Loss: 0.008615 | Acc: 99.818933%
+Epoch  82 |  Val  | Loss: 1.921324 | Acc: 70.488574%
+Model(acc) saved.
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 50m/2.0h
+
+
+Early stop counter 1/50.
+Epoch  83 | Train | Loss: 0.012047 | Acc: 99.733525%
+Epoch  83 |  Val  | Loss: 2.037203 | Acc: 69.542947%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 50m/2.0h
+
+
+Early stop counter 2/50.
+Epoch  84 | Train | Loss: 0.058717 | Acc: 98.448977%
+Epoch  84 |  Val  | Loss: 2.182361 | Acc: 66.049383%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 51m/2.0h
+
+
+Early stop counter 3/50.
+Epoch  85 | Train | Loss: 0.050672 | Acc: 98.609545%
+Epoch  85 |  Val  | Loss: 2.173361 | Acc: 66.338324%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 52m/2.0h
+
+
+Early stop counter 4/50.
+Epoch  86 | Train | Loss: 0.065130 | Acc: 98.056096%
+Epoch  86 |  Val  | Loss: 2.192305 | Acc: 65.642238%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 52m/2.0h
+
+
+Early stop counter 5/50.
+Epoch  87 | Train | Loss: 0.099553 | Acc: 96.997028%
+Epoch  87 |  Val  | Loss: 2.206170 | Acc: 66.312057%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 53m/2.0h
+
+
+Early stop counter 6/50.
+Epoch  88 | Train | Loss: 0.089257 | Acc: 97.324997%
+Epoch  88 |  Val  | Loss: 2.093369 | Acc: 66.482795%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 53m/2.0h
+
+
+Early stop counter 7/50.
+Epoch  89 | Train | Loss: 0.068092 | Acc: 98.028766%
+Epoch  89 |  Val  | Loss: 2.028153 | Acc: 67.428421%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 54m/2.0h
+
+
+Early stop counter 8/50.
+Epoch  90 | Train | Loss: 0.054122 | Acc: 98.459226%
+Epoch  90 |  Val  | Loss: 1.981919 | Acc: 68.649856%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 55m/2.0h
+
+
+Early stop counter 9/50.
+Epoch  91 | Train | Loss: 0.043550 | Acc: 98.718869%
+Epoch  91 |  Val  | Loss: 2.030295 | Acc: 68.584187%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 55m/2.0h
+
+
+Early stop counter 10/50.
+Epoch  92 | Train | Loss: 0.046142 | Acc: 98.780363%
+Epoch  92 |  Val  | Loss: 2.016842 | Acc: 68.452850%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 56m/2.0h
+
+
+Early stop counter 11/50.
+Epoch  93 | Train | Loss: 0.039606 | Acc: 98.865772%
+Epoch  93 |  Val  | Loss: 1.976133 | Acc: 68.636722%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 56m/2.0h
+
+
+Early stop counter 12/50.
+Epoch  94 | Train | Loss: 0.029586 | Acc: 99.166410%
+Epoch  94 |  Val  | Loss: 1.917310 | Acc: 70.344103%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 57m/2.0h
+
+
+Early stop counter 13/50.
+Epoch  95 | Train | Loss: 0.026317 | Acc: 99.344061%
+Epoch  95 |  Val  | Loss: 1.943966 | Acc: 70.422905%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 58m/2.0h
+
+
+Early stop counter 14/50.
+Epoch  96 | Train | Loss: 0.029193 | Acc: 99.255236%
+Epoch  96 |  Val  | Loss: 1.930004 | Acc: 69.687418%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 58m/2.0h
+
+
+Early stop counter 15/50.
+Epoch  97 | Train | Loss: 0.023118 | Acc: 99.344061%
+Epoch  97 |  Val  | Loss: 1.914834 | Acc: 69.950092%
+Current best: min_loss = 1.90603, best_acc = 70.48857%
+Epoch time: 59m/2.0h
+
+
+Early stop counter 16/50.
+Epoch  98 | Train | Loss: 0.016332 | Acc: 99.624201%
+Epoch  98 |  Val  | Loss: 1.872370 | Acc: 70.882585%
+Model(loss) saved.
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 59m/2.0h
+
+
+Epoch  99 | Train | Loss: 0.021905 | Acc: 99.439718%
+Epoch  99 |  Val  | Loss: 1.950311 | Acc: 69.542947%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.0h/2.0h
+
+
+Early stop counter 1/50.
+Epoch 100 | Train | Loss: 0.021921 | Acc: 99.436302%
+Epoch 100 |  Val  | Loss: 1.940121 | Acc: 70.370370%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.0h/2.0h
+
+
+Early stop counter 2/50.
+Epoch 101 | Train | Loss: 0.022990 | Acc: 99.408971%
+Epoch 101 |  Val  | Loss: 1.958611 | Acc: 69.976359%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.0h/2.0h
+
+
+Early stop counter 3/50.
+Epoch 102 | Train | Loss: 0.020930 | Acc: 99.494380%
+Epoch 102 |  Val  | Loss: 1.976580 | Acc: 69.910691%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.0h/2.0h
+
+
+Early stop counter 4/50.
+Epoch 103 | Train | Loss: 0.024938 | Acc: 99.395306%
+Epoch 103 |  Val  | Loss: 2.072105 | Acc: 68.833727%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.0h/2.0h
+
+
+Early stop counter 5/50.
+Epoch 104 | Train | Loss: 0.054984 | Acc: 98.472891%
+Epoch 104 |  Val  | Loss: 2.140570 | Acc: 67.349619%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 6/50.
+Epoch 105 | Train | Loss: 0.054627 | Acc: 98.469475%
+Epoch 105 |  Val  | Loss: 2.097591 | Acc: 67.599159%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 7/50.
+Epoch 106 | Train | Loss: 0.049386 | Acc: 98.612962%
+Epoch 106 |  Val  | Loss: 2.083077 | Acc: 67.389020%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 8/50.
+Epoch 107 | Train | Loss: 0.056126 | Acc: 98.339654%
+Epoch 107 |  Val  | Loss: 2.046069 | Acc: 68.177042%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 9/50.
+Epoch 108 | Train | Loss: 0.046667 | Acc: 98.537802%
+Epoch 108 |  Val  | Loss: 2.032043 | Acc: 67.914368%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 10/50.
+Epoch 109 | Train | Loss: 0.043396 | Acc: 98.677872%
+Epoch 109 |  Val  | Loss: 1.962922 | Acc: 69.490412%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 11/50.
+Epoch 110 | Train | Loss: 0.038869 | Acc: 98.927266%
+Epoch 110 |  Val  | Loss: 2.013549 | Acc: 68.978198%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 12/50.
+Epoch 111 | Train | Loss: 0.050672 | Acc: 98.592464%
+Epoch 111 |  Val  | Loss: 1.995638 | Acc: 69.569215%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 13/50.
+Epoch 112 | Train | Loss: 0.036194 | Acc: 98.852106%
+Epoch 112 |  Val  | Loss: 1.985229 | Acc: 69.214605%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 14/50.
+Epoch 113 | Train | Loss: 0.025026 | Acc: 99.285983%
+Epoch 113 |  Val  | Loss: 1.936995 | Acc: 70.383504%
+Current best: min_loss = 1.87237, best_acc = 70.88258%
+Epoch time: 1.1h/2.0h
+
+
+Early stop counter 15/50.
+Epoch 114 | Train | Loss: 0.018981 | Acc: 99.528544%
+Epoch 114 |  Val  | Loss: 1.864606 | Acc: 71.407933%
+Model(loss) saved.
+Current best: min_loss = 1.86461, best_acc = 71.40793%
+Epoch time: 1.2h/2.0h
+
+
+Epoch 115 | Train | Loss: 0.011802 | Acc: 99.709610%
+Epoch 115 |  Val  | Loss: 1.823303 | Acc: 72.012083%
+Model(loss) saved.
+Current best: min_loss = 1.82330, best_acc = 72.01208%
+Epoch time: 1.2h/2.0h
+
+
+Epoch 116 | Train | Loss: 0.009745 | Acc: 99.781354%
+Epoch 116 |  Val  | Loss: 1.823110 | Acc: 71.749409%
+Model(loss) saved.
+Current best: min_loss = 1.82311, best_acc = 71.74941%
+Epoch time: 1.2h/2.0h
+
+
+Epoch 117 | Train | Loss: 0.007384 | Acc: 99.856513%
+Epoch 117 |  Val  | Loss: 1.787331 | Acc: 72.301024%
+Model(loss) saved.
+Current best: min_loss = 1.78733, best_acc = 72.30102%
+Epoch time: 1.2h/2.0h
+
+
+Epoch 118 | Train | Loss: 0.008604 | Acc: 99.846264%
+Epoch 118 |  Val  | Loss: 1.790381 | Acc: 72.471763%
+Model(acc) saved.
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.2h/2.0h
+
+
+Early stop counter 1/50.
+Epoch 119 | Train | Loss: 0.016127 | Acc: 99.648116%
+Epoch 119 |  Val  | Loss: 2.211220 | Acc: 67.402154%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.2h/2.0h
+
+
+Early stop counter 2/50.
+Epoch 120 | Train | Loss: 0.074352 | Acc: 97.881863%
+Epoch 120 |  Val  | Loss: 2.138112 | Acc: 67.494090%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.2h/2.0h
+
+
+Early stop counter 3/50.
+Epoch 121 | Train | Loss: 0.078269 | Acc: 97.625636%
+Epoch 121 |  Val  | Loss: 2.069556 | Acc: 68.374048%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.2h/2.0h
+
+
+Early stop counter 4/50.
+Epoch 122 | Train | Loss: 0.074632 | Acc: 97.734960%
+Epoch 122 |  Val  | Loss: 2.007561 | Acc: 68.426583%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.2h/2.0h
+
+
+Early stop counter 5/50.
+Epoch 123 | Train | Loss: 0.053651 | Acc: 98.363568%
+Epoch 123 |  Val  | Loss: 1.930899 | Acc: 70.133964%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.2h/2.0h
+
+
+Early stop counter 6/50.
+Epoch 124 | Train | Loss: 0.045814 | Acc: 98.681289%
+Epoch 124 |  Val  | Loss: 1.959527 | Acc: 70.107696%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 7/50.
+Epoch 125 | Train | Loss: 0.035750 | Acc: 98.992177%
+Epoch 125 |  Val  | Loss: 1.922307 | Acc: 71.053323%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 8/50.
+Epoch 126 | Train | Loss: 0.029753 | Acc: 99.197158%
+Epoch 126 |  Val  | Loss: 1.958257 | Acc: 70.790649%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 9/50.
+Epoch 127 | Train | Loss: 0.029544 | Acc: 99.190325%
+Epoch 127 |  Val  | Loss: 1.903924 | Acc: 70.974521%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 10/50.
+Epoch 128 | Train | Loss: 0.030190 | Acc: 99.183492%
+Epoch 128 |  Val  | Loss: 1.856803 | Acc: 71.618072%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 11/50.
+Epoch 129 | Train | Loss: 0.021816 | Acc: 99.398722%
+Epoch 129 |  Val  | Loss: 1.872448 | Acc: 71.499869%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 12/50.
+Epoch 130 | Train | Loss: 0.020277 | Acc: 99.460217%
+Epoch 130 |  Val  | Loss: 1.889088 | Acc: 71.604938%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 13/50.
+Epoch 131 | Train | Loss: 0.015318 | Acc: 99.600287%
+Epoch 131 |  Val  | Loss: 1.838236 | Acc: 72.445495%
+Current best: min_loss = 1.78733, best_acc = 72.47176%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 14/50.
+Epoch 132 | Train | Loss: 0.016612 | Acc: 99.617369%
+Epoch 132 |  Val  | Loss: 1.849661 | Acc: 72.813239%
+Model(acc) saved.
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 15/50.
+Epoch 133 | Train | Loss: 0.017196 | Acc: 99.590038%
+Epoch 133 |  Val  | Loss: 1.974832 | Acc: 71.105858%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.3h/2.0h
+
+
+Early stop counter 16/50.
+Epoch 134 | Train | Loss: 0.040290 | Acc: 98.975095%
+Epoch 134 |  Val  | Loss: 1.933072 | Acc: 71.171526%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 17/50.
+Epoch 135 | Train | Loss: 0.024764 | Acc: 99.299648%
+Epoch 135 |  Val  | Loss: 1.922156 | Acc: 71.657473%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 18/50.
+Epoch 136 | Train | Loss: 0.030149 | Acc: 99.162994%
+Epoch 136 |  Val  | Loss: 1.987127 | Acc: 70.646178%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 19/50.
+Epoch 137 | Train | Loss: 0.027849 | Acc: 99.296232%
+Epoch 137 |  Val  | Loss: 1.874143 | Acc: 71.920147%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 20/50.
+Epoch 138 | Train | Loss: 0.021203 | Acc: 99.470466%
+Epoch 138 |  Val  | Loss: 1.900471 | Acc: 71.749409%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 21/50.
+Epoch 139 | Train | Loss: 0.020209 | Acc: 99.501213%
+Epoch 139 |  Val  | Loss: 1.861922 | Acc: 71.946414%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 22/50.
+Epoch 140 | Train | Loss: 0.022651 | Acc: 99.412388%
+Epoch 140 |  Val  | Loss: 1.860972 | Acc: 72.143420%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 23/50.
+Epoch 141 | Train | Loss: 0.028302 | Acc: 99.244987%
+Epoch 141 |  Val  | Loss: 1.906666 | Acc: 71.315997%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 24/50.
+Epoch 142 | Train | Loss: 0.026596 | Acc: 99.285983%
+Epoch 142 |  Val  | Loss: 1.893946 | Acc: 71.513002%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 25/50.
+Epoch 143 | Train | Loss: 0.021994 | Acc: 99.408971%
+Epoch 143 |  Val  | Loss: 1.840918 | Acc: 72.511164%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.4h/2.0h
+
+
+Early stop counter 26/50.
+Epoch 144 | Train | Loss: 0.022083 | Acc: 99.429469%
+Epoch 144 |  Val  | Loss: 1.858446 | Acc: 72.524297%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 27/50.
+Epoch 145 | Train | Loss: 0.017765 | Acc: 99.572956%
+Epoch 145 |  Val  | Loss: 1.902839 | Acc: 72.038350%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 28/50.
+Epoch 146 | Train | Loss: 0.022726 | Acc: 99.545625%
+Epoch 146 |  Val  | Loss: 2.116203 | Acc: 69.818755%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 29/50.
+Epoch 147 | Train | Loss: 0.207386 | Acc: 94.243449%
+Epoch 147 |  Val  | Loss: 2.127104 | Acc: 65.944313%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 30/50.
+Epoch 148 | Train | Loss: 0.173297 | Acc: 94.745653%
+Epoch 148 |  Val  | Loss: 1.894955 | Acc: 68.439716%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 31/50.
+Epoch 149 | Train | Loss: 0.103955 | Acc: 96.891121%
+Epoch 149 |  Val  | Loss: 1.815071 | Acc: 70.199632%
+Current best: min_loss = 1.78733, best_acc = 72.81324%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 32/50.
+Epoch 150 | Train | Loss: 0.056098 | Acc: 98.390899%
+Epoch 150 |  Val  | Loss: 1.750152 | Acc: 72.025217%
+Model(loss) saved.
+Current best: min_loss = 1.75015, best_acc = 72.02522%
+Epoch time: 1.5h/2.0h
+
+
+Epoch 151 | Train | Loss: 0.031320 | Acc: 99.121998%
+Epoch 151 |  Val  | Loss: 1.688952 | Acc: 73.325453%
+Model(loss) saved.
+Current best: min_loss = 1.68895, best_acc = 73.32545%
+Epoch time: 1.5h/2.0h
+
+
+Epoch 152 | Train | Loss: 0.020966 | Acc: 99.497796%
+Epoch 152 |  Val  | Loss: 1.692770 | Acc: 73.010244%
+Current best: min_loss = 1.68895, best_acc = 73.32545%
+Epoch time: 1.5h/2.0h
+
+
+Early stop counter 1/50.
+Epoch 153 | Train | Loss: 0.014257 | Acc: 99.648116%
+Epoch 153 |  Val  | Loss: 1.621801 | Acc: 74.625690%
+Model(loss) saved.
+Current best: min_loss = 1.62180, best_acc = 74.62569%
+Epoch time: 1.5h/2.0h
+
+
+Epoch 154 | Train | Loss: 0.010614 | Acc: 99.777937%
+Epoch 154 |  Val  | Loss: 1.621658 | Acc: 74.678224%
+Model(loss) saved.
+Current best: min_loss = 1.62166, best_acc = 74.67822%
+Epoch time: 1.6h/2.0h
+
+
+Epoch 155 | Train | Loss: 0.009884 | Acc: 99.801852%
+Epoch 155 |  Val  | Loss: 1.632156 | Acc: 74.481219%
+Current best: min_loss = 1.62166, best_acc = 74.67822%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 1/50.
+Epoch 156 | Train | Loss: 0.009886 | Acc: 99.788186%
+Epoch 156 |  Val  | Loss: 1.623826 | Acc: 74.376149%
+Current best: min_loss = 1.62166, best_acc = 74.67822%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 2/50.
+Epoch 157 | Train | Loss: 0.008002 | Acc: 99.825766%
+Epoch 157 |  Val  | Loss: 1.609534 | Acc: 74.940898%
+Model(loss) saved.
+Current best: min_loss = 1.60953, best_acc = 74.94090%
+Epoch time: 1.6h/2.0h
+
+
+Epoch 158 | Train | Loss: 0.008262 | Acc: 99.849681%
+Epoch 158 |  Val  | Loss: 1.633415 | Acc: 75.151038%
+Model(acc) saved.
+Current best: min_loss = 1.60953, best_acc = 75.15104%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 1/50.
+Epoch 159 | Train | Loss: 0.009807 | Acc: 99.801852%
+Epoch 159 |  Val  | Loss: 1.613398 | Acc: 74.927765%
+Current best: min_loss = 1.60953, best_acc = 75.15104%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 2/50.
+Epoch 160 | Train | Loss: 0.008521 | Acc: 99.798435%
+Epoch 160 |  Val  | Loss: 1.664168 | Acc: 74.678224%
+Current best: min_loss = 1.60953, best_acc = 75.15104%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 3/50.
+Epoch 161 | Train | Loss: 0.010509 | Acc: 99.788186%
+Epoch 161 |  Val  | Loss: 1.718931 | Acc: 73.601261%
+Current best: min_loss = 1.60953, best_acc = 75.15104%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 4/50.
+Epoch 162 | Train | Loss: 0.011855 | Acc: 99.733525%
+Epoch 162 |  Val  | Loss: 1.692408 | Acc: 74.546887%
+Current best: min_loss = 1.60953, best_acc = 75.15104%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 5/50.
+Epoch 163 | Train | Loss: 0.008687 | Acc: 99.812101%
+Epoch 163 |  Val  | Loss: 1.696532 | Acc: 74.651957%
+Current best: min_loss = 1.60953, best_acc = 75.15104%
+Epoch time: 1.6h/2.0h
+
+
+Early stop counter 6/50.
+Epoch 164 | Train | Loss: 0.008281 | Acc: 99.829182%
+Epoch 164 |  Val  | Loss: 1.652466 | Acc: 75.177305%
+Model(acc) saved.
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 7/50.
+Epoch 165 | Train | Loss: 0.008410 | Acc: 99.818933%
+Epoch 165 |  Val  | Loss: 1.697177 | Acc: 74.678224%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 8/50.
+Epoch 166 | Train | Loss: 0.010762 | Acc: 99.767688%
+Epoch 166 |  Val  | Loss: 1.686814 | Acc: 74.494353%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 9/50.
+Epoch 167 | Train | Loss: 0.008341 | Acc: 99.822350%
+Epoch 167 |  Val  | Loss: 1.641118 | Acc: 75.019701%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 10/50.
+Epoch 168 | Train | Loss: 0.011933 | Acc: 99.730108%
+Epoch 168 |  Val  | Loss: 1.708748 | Acc: 74.743893%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 11/50.
+Epoch 169 | Train | Loss: 0.017774 | Acc: 99.566123%
+Epoch 169 |  Val  | Loss: 1.777340 | Acc: 72.997111%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 12/50.
+Epoch 170 | Train | Loss: 0.022503 | Acc: 99.405555%
+Epoch 170 |  Val  | Loss: 1.941986 | Acc: 70.882585%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 13/50.
+Epoch 171 | Train | Loss: 0.034887 | Acc: 99.043422%
+Epoch 171 |  Val  | Loss: 1.812657 | Acc: 72.051484%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 14/50.
+Epoch 172 | Train | Loss: 0.035017 | Acc: 99.026340%
+Epoch 172 |  Val  | Loss: 1.823149 | Acc: 72.209089%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 15/50.
+Epoch 173 | Train | Loss: 0.031370 | Acc: 99.115165%
+Epoch 173 |  Val  | Loss: 1.865551 | Acc: 71.801944%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.7h/2.0h
+
+
+Early stop counter 16/50.
+Epoch 174 | Train | Loss: 0.025291 | Acc: 99.316730%
+Epoch 174 |  Val  | Loss: 1.835807 | Acc: 72.498030%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 17/50.
+Epoch 175 | Train | Loss: 0.027981 | Acc: 99.207407%
+Epoch 175 |  Val  | Loss: 1.861832 | Acc: 72.379827%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 18/50.
+Epoch 176 | Train | Loss: 0.023337 | Acc: 99.391890%
+Epoch 176 |  Val  | Loss: 1.825494 | Acc: 72.708169%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 19/50.
+Epoch 177 | Train | Loss: 0.030399 | Acc: 99.193741%
+Epoch 177 |  Val  | Loss: 1.785065 | Acc: 73.246651%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 20/50.
+Epoch 178 | Train | Loss: 0.036446 | Acc: 98.978511%
+Epoch 178 |  Val  | Loss: 1.859344 | Acc: 71.618072%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 21/50.
+Epoch 179 | Train | Loss: 0.045588 | Acc: 98.688121%
+Epoch 179 |  Val  | Loss: 1.835277 | Acc: 71.145259%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 22/50.
+Epoch 180 | Train | Loss: 0.042914 | Acc: 98.701787%
+Epoch 180 |  Val  | Loss: 1.814275 | Acc: 71.762543%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 23/50.
+Epoch 181 | Train | Loss: 0.028792 | Acc: 99.169827%
+Epoch 181 |  Val  | Loss: 1.707808 | Acc: 72.695035%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 24/50.
+Epoch 182 | Train | Loss: 0.018002 | Acc: 99.504629%
+Epoch 182 |  Val  | Loss: 1.711783 | Acc: 73.338587%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 25/50.
+Epoch 183 | Train | Loss: 0.016740 | Acc: 99.586622%
+Epoch 183 |  Val  | Loss: 1.704578 | Acc: 74.087208%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.8h/2.0h
+
+
+Early stop counter 26/50.
+Epoch 184 | Train | Loss: 0.015401 | Acc: 99.613952%
+Epoch 184 |  Val  | Loss: 1.664941 | Acc: 74.060940%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 27/50.
+Epoch 185 | Train | Loss: 0.015832 | Acc: 99.559291%
+Epoch 185 |  Val  | Loss: 1.676303 | Acc: 74.008406%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 28/50.
+Epoch 186 | Train | Loss: 0.011871 | Acc: 99.719859%
+Epoch 186 |  Val  | Loss: 1.656924 | Acc: 74.402417%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 29/50.
+Epoch 187 | Train | Loss: 0.011949 | Acc: 99.726692%
+Epoch 187 |  Val  | Loss: 1.674462 | Acc: 73.798266%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 30/50.
+Epoch 188 | Train | Loss: 0.009753 | Acc: 99.805268%
+Epoch 188 |  Val  | Loss: 1.668126 | Acc: 74.599422%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 31/50.
+Epoch 189 | Train | Loss: 0.014039 | Acc: 99.695945%
+Epoch 189 |  Val  | Loss: 1.793356 | Acc: 73.391122%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 32/50.
+Epoch 190 | Train | Loss: 0.024996 | Acc: 99.323563%
+Epoch 190 |  Val  | Loss: 1.913169 | Acc: 71.250328%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 33/50.
+Epoch 191 | Train | Loss: 0.039478 | Acc: 98.917017%
+Epoch 191 |  Val  | Loss: 1.915680 | Acc: 71.499869%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 34/50.
+Epoch 192 | Train | Loss: 0.044181 | Acc: 98.671040%
+Epoch 192 |  Val  | Loss: 1.755939 | Acc: 73.207250%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 35/50.
+Epoch 193 | Train | Loss: 0.047619 | Acc: 98.705203%
+Epoch 193 |  Val  | Loss: 1.817727 | Acc: 71.526136%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 1.9h/2.0h
+
+
+Early stop counter 36/50.
+Epoch 194 | Train | Loss: 0.044973 | Acc: 98.664207%
+Epoch 194 |  Val  | Loss: 1.747928 | Acc: 72.983977%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 37/50.
+Epoch 195 | Train | Loss: 0.038696 | Acc: 98.927266%
+Epoch 195 |  Val  | Loss: 1.847982 | Acc: 71.736275%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 38/50.
+Epoch 196 | Train | Loss: 0.059840 | Acc: 98.278159%
+Epoch 196 |  Val  | Loss: 1.902382 | Acc: 71.158392%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 39/50.
+Epoch 197 | Train | Loss: 0.072049 | Acc: 97.892112%
+Epoch 197 |  Val  | Loss: 1.835282 | Acc: 71.447334%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 40/50.
+Epoch 198 | Train | Loss: 0.041591 | Acc: 98.763281%
+Epoch 198 |  Val  | Loss: 1.726512 | Acc: 73.561860%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 41/50.
+Epoch 199 | Train | Loss: 0.027788 | Acc: 99.255236%
+Epoch 199 |  Val  | Loss: 1.719525 | Acc: 73.456790%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 42/50.
+Epoch 200 | Train | Loss: 0.021935 | Acc: 99.429469%
+Epoch 200 |  Val  | Loss: 1.688177 | Acc: 74.625690%
+Current best: min_loss = 1.60953, best_acc = 75.17730%
+Epoch time: 2.0h/2.0h
+
+
+Early stop counter 43/50.
