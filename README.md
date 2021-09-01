@@ -8,10 +8,10 @@ pip install -r requirements.txt
 ```
 
 Preparation before training model
-```
 1. Place your data in the root directory
 2. set up relevant settings in [src/run.py](src/run.py), including data path and hyper-parameters.
-```
+
+
 
 Then, run the code by 
 ```
